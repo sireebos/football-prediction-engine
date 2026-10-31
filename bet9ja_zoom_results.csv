@@ -1,0 +1,201 @@
+roundId,time,matchId,homeTeamId,homeTeam,awayTeamId,awayTeam,homeScore,awayScore,halfTimeHomeScore,halfTimeAwayScore,homeCornerScore,awayCornerScore
+1,17-10-2026 04:22:00,4257433,11001,ZTurbo.Man City,11009,ZTurbo.Fulham,1,0,1,0,2,7
+1,17-10-2026 04:22:00,4257434,11016,ZTurbo.Brentford,11018,ZTurbo.Sunderland,1,1,0,1,3,4
+1,17-10-2026 04:22:00,4257435,11002,ZTurbo.Man United,11007,ZTurbo.Everton,0,2,0,1,2,4
+1,17-10-2026 04:22:00,4257436,11015,ZTurbo.Aston Villa,11012,ZTurbo.Newcastle Utd,3,0,2,0,6,1
+1,17-10-2026 04:22:00,4257437,11017,ZTurbo.Nottingham Forest,11014,ZTurbo.Brighton,1,1,0,1,5,1
+1,17-10-2026 04:22:00,4257438,11023,ZTurbo.Hull,11004,ZTurbo.Liverpool,1,3,1,1,5,0
+1,17-10-2026 04:22:00,4257439,11011,ZTurbo.Bournemouth,11003,ZTurbo.Chelsea,1,1,1,0,3,3
+1,17-10-2026 04:22:00,4257440,11010,ZTurbo.Crystal Palace,11005,ZTurbo.Tottenham,0,2,0,1,2,3
+1,17-10-2026 04:22:00,4257441,11022,ZTurbo.Ipswich,11021,ZTurbo.Coventry City,1,3,1,2,4,1
+1,17-10-2026 04:22:00,4257442,11006,ZTurbo.Arsenal,11019,ZTurbo.Leeds,1,1,0,0,3,2
+2,17-10-2026 04:33:30,4257443,11018,ZTurbo.Sunderland,11005,ZTurbo.Tottenham,0,3,0,1,1,3
+2,17-10-2026 04:33:30,4257444,11007,ZTurbo.Everton,11001,ZTurbo.Man City,1,1,1,0,4,4
+2,17-10-2026 04:33:30,4257445,11012,ZTurbo.Newcastle Utd,11016,ZTurbo.Brentford,2,1,1,1,2,2
+2,17-10-2026 04:33:30,4257446,11014,ZTurbo.Brighton,11002,ZTurbo.Man United,0,1,0,0,0,4
+2,17-10-2026 04:33:30,4257447,11009,ZTurbo.Fulham,11010,ZTurbo.Crystal Palace,0,1,0,0,3,4
+2,17-10-2026 04:33:30,4257448,11004,ZTurbo.Liverpool,11015,ZTurbo.Aston Villa,2,1,0,0,4,3
+2,17-10-2026 04:33:30,4257449,11003,ZTurbo.Chelsea,11017,ZTurbo.Nottingham Forest,2,0,2,0,3,2
+2,17-10-2026 04:33:30,4257450,11021,ZTurbo.Coventry City,11023,ZTurbo.Hull,0,1,0,0,0,3
+2,17-10-2026 04:33:30,4257451,11019,ZTurbo.Leeds,11011,ZTurbo.Bournemouth,2,2,1,0,2,3
+2,17-10-2026 04:33:30,4257452,11006,ZTurbo.Arsenal,11022,ZTurbo.Ipswich,3,1,3,0,2,2
+3,17-10-2026 04:45:00,4257453,11009,ZTurbo.Fulham,11007,ZTurbo.Everton,2,0,0,0,2,3
+3,17-10-2026 04:45:00,4257454,11005,ZTurbo.Tottenham,11012,ZTurbo.Newcastle Utd,1,0,0,0,4,2
+3,17-10-2026 04:45:00,4257455,11001,ZTurbo.Man City,11014,ZTurbo.Brighton,2,0,1,0,4,3
+3,17-10-2026 04:45:00,4257456,11016,ZTurbo.Brentford,11004,ZTurbo.Liverpool,0,3,0,1,4,2
+3,17-10-2026 04:45:00,4257457,11002,ZTurbo.Man United,11003,ZTurbo.Chelsea,2,1,1,0,3,3
+3,17-10-2026 04:45:00,4257458,11015,ZTurbo.Aston Villa,11021,ZTurbo.Coventry City,0,2,0,1,4,2
+3,17-10-2026 04:45:00,4257459,11017,ZTurbo.Nottingham Forest,11019,ZTurbo.Leeds,1,1,0,1,2,0
+3,17-10-2026 04:45:00,4257460,11023,ZTurbo.Hull,11006,ZTurbo.Arsenal,0,2,0,1,4,3
+3,17-10-2026 04:45:00,4257461,11010,ZTurbo.Crystal Palace,11018,ZTurbo.Sunderland,1,2,1,0,5,2
+3,17-10-2026 04:45:00,4257462,11011,ZTurbo.Bournemouth,11022,ZTurbo.Ipswich,4,0,1,0,4,1
+4,17-10-2026 04:56:30,4257463,11012,ZTurbo.Newcastle Utd,11018,ZTurbo.Sunderland,1,1,1,0,2,3
+4,17-10-2026 04:56:30,4257464,11014,ZTurbo.Brighton,11009,ZTurbo.Fulham,1,0,1,0,1,3
+4,17-10-2026 04:56:30,4257465,11004,ZTurbo.Liverpool,11005,ZTurbo.Tottenham,2,1,1,0,1,3
+4,17-10-2026 04:56:30,4257466,11007,ZTurbo.Everton,11010,ZTurbo.Crystal Palace,2,3,1,1,1,1
+4,17-10-2026 04:56:30,4257467,11003,ZTurbo.Chelsea,11001,ZTurbo.Man City,3,0,2,0,1,6
+4,17-10-2026 04:56:30,4257468,11021,ZTurbo.Coventry City,11016,ZTurbo.Brentford,3,0,0,0,2,1
+4,17-10-2026 04:56:30,4257469,11019,ZTurbo.Leeds,11002,ZTurbo.Man United,1,4,0,3,2,0
+4,17-10-2026 04:56:30,4257470,11006,ZTurbo.Arsenal,11015,ZTurbo.Aston Villa,1,1,0,1,4,2
+4,17-10-2026 04:56:30,4257471,11022,ZTurbo.Ipswich,11017,ZTurbo.Nottingham Forest,3,2,2,1,2,1
+4,17-10-2026 04:56:30,4257472,11011,ZTurbo.Bournemouth,11023,ZTurbo.Hull,2,0,2,0,2,3
+5,17-10-2026 05:08:00,4257473,11007,ZTurbo.Everton,11014,ZTurbo.Brighton,2,0,1,0,2,4
+5,17-10-2026 05:08:00,4257474,11018,ZTurbo.Sunderland,11004,ZTurbo.Liverpool,1,1,0,1,4,4
+5,17-10-2026 05:08:00,4257475,11009,ZTurbo.Fulham,11003,ZTurbo.Chelsea,2,1,2,0,2,3
+5,17-10-2026 05:08:00,4257476,11005,ZTurbo.Tottenham,11021,ZTurbo.Coventry City,3,0,2,0,5,0
+5,17-10-2026 05:08:00,4257477,11001,ZTurbo.Man City,11019,ZTurbo.Leeds,2,0,1,0,4,2
+5,17-10-2026 05:08:00,4257478,11016,ZTurbo.Brentford,11006,ZTurbo.Arsenal,1,3,1,1,2,4
+5,17-10-2026 05:08:00,4257479,11002,ZTurbo.Man United,11022,ZTurbo.Ipswich,4,1,3,1,2,1
+5,17-10-2026 05:08:00,4257480,11015,ZTurbo.Aston Villa,11011,ZTurbo.Bournemouth,1,1,0,0,5,1
+5,17-10-2026 05:08:00,4257481,11017,ZTurbo.Nottingham Forest,11023,ZTurbo.Hull,1,1,1,1,1,2
+5,17-10-2026 05:08:00,4257482,11010,ZTurbo.Crystal Palace,11012,ZTurbo.Newcastle Utd,0,0,0,0,4,2
+6,17-10-2026 05:19:30,4257483,11004,ZTurbo.Liverpool,11012,ZTurbo.Newcastle Utd,2,0,1,0,6,2
+6,17-10-2026 05:19:30,4257484,11003,ZTurbo.Chelsea,11007,ZTurbo.Everton,0,1,0,1,6,2
+6,17-10-2026 05:19:30,4257485,11021,ZTurbo.Coventry City,11018,ZTurbo.Sunderland,0,2,0,1,2,4
+6,17-10-2026 05:19:30,4257486,11019,ZTurbo.Leeds,11009,ZTurbo.Fulham,1,2,1,1,0,5
+6,17-10-2026 05:19:30,4257487,11006,ZTurbo.Arsenal,11005,ZTurbo.Tottenham,3,1,1,1,4,2
+6,17-10-2026 05:19:30,4257488,11022,ZTurbo.Ipswich,11001,ZTurbo.Man City,1,2,1,1,1,2
+6,17-10-2026 05:19:30,4257489,11011,ZTurbo.Bournemouth,11016,ZTurbo.Brentford,0,2,0,0,2,1
+6,17-10-2026 05:19:30,4257490,11023,ZTurbo.Hull,11002,ZTurbo.Man United,2,3,0,2,1,3
+6,17-10-2026 05:19:30,4257491,11017,ZTurbo.Nottingham Forest,11015,ZTurbo.Aston Villa,0,3,0,2,3,2
+6,17-10-2026 05:19:30,4257492,11014,ZTurbo.Brighton,11010,ZTurbo.Crystal Palace,0,2,0,1,2,2
+7,17-10-2026 05:31:00,4257493,11014,ZTurbo.Brighton,11003,ZTurbo.Chelsea,1,1,1,0,1,5
+7,17-10-2026 05:31:00,4257494,11012,ZTurbo.Newcastle Utd,11021,ZTurbo.Coventry City,0,2,0,2,5,2
+7,17-10-2026 05:31:00,4257495,11007,ZTurbo.Everton,11019,ZTurbo.Leeds,2,0,1,0,3,3
+7,17-10-2026 05:31:00,4257496,11018,ZTurbo.Sunderland,11006,ZTurbo.Arsenal,0,4,0,1,3,2
+7,17-10-2026 05:31:00,4257497,11009,ZTurbo.Fulham,11022,ZTurbo.Ipswich,1,1,1,1,1,2
+7,17-10-2026 05:31:00,4257498,11005,ZTurbo.Tottenham,11011,ZTurbo.Bournemouth,1,2,0,1,2,2
+7,17-10-2026 05:31:00,4257499,11010,ZTurbo.Crystal Palace,11004,ZTurbo.Liverpool,2,1,1,1,2,3
+7,17-10-2026 05:31:00,4257500,11001,ZTurbo.Man City,11023,ZTurbo.Hull,2,3,1,1,2,2
+7,17-10-2026 05:31:00,4257501,11016,ZTurbo.Brentford,11017,ZTurbo.Nottingham Forest,2,4,1,0,1,0
+7,17-10-2026 05:31:00,4257502,11002,ZTurbo.Man United,11015,ZTurbo.Aston Villa,3,1,2,0,4,2
+8,17-10-2026 05:42:30,4257503,11021,ZTurbo.Coventry City,11004,ZTurbo.Liverpool,0,4,0,0,0,6
+8,17-10-2026 05:42:30,4257504,11019,ZTurbo.Leeds,11014,ZTurbo.Brighton,0,1,0,0,2,4
+8,17-10-2026 05:42:30,4257505,11006,ZTurbo.Arsenal,11012,ZTurbo.Newcastle Utd,3,0,1,0,2,5
+8,17-10-2026 05:42:30,4257506,11003,ZTurbo.Chelsea,11010,ZTurbo.Crystal Palace,0,3,0,2,3,3
+8,17-10-2026 05:42:30,4257507,11022,ZTurbo.Ipswich,11007,ZTurbo.Everton,0,1,0,0,3,4
+8,17-10-2026 05:42:30,4257508,11011,ZTurbo.Bournemouth,11018,ZTurbo.Sunderland,1,1,0,1,3,1
+8,17-10-2026 05:42:30,4257509,11023,ZTurbo.Hull,11009,ZTurbo.Fulham,1,4,0,1,1,3
+8,17-10-2026 05:42:30,4257510,11017,ZTurbo.Nottingham Forest,11005,ZTurbo.Tottenham,2,3,2,2,1,2
+8,17-10-2026 05:42:30,4257511,11015,ZTurbo.Aston Villa,11001,ZTurbo.Man City,2,1,0,0,2,4
+8,17-10-2026 05:42:30,4257512,11002,ZTurbo.Man United,11016,ZTurbo.Brentford,3,1,0,1,4,1
+9,17-10-2026 05:54:00,4257513,11003,ZTurbo.Chelsea,11019,ZTurbo.Leeds,1,2,0,0,3,1
+9,17-10-2026 05:54:00,4257514,11010,ZTurbo.Crystal Palace,11021,ZTurbo.Coventry City,0,2,0,1,7,1
+9,17-10-2026 05:54:00,4257515,11004,ZTurbo.Liverpool,11006,ZTurbo.Arsenal,1,1,0,1,4,3
+9,17-10-2026 05:54:00,4257516,11014,ZTurbo.Brighton,11022,ZTurbo.Ipswich,0,1,0,1,1,2
+9,17-10-2026 05:54:00,4257517,11012,ZTurbo.Newcastle Utd,11011,ZTurbo.Bournemouth,4,0,2,0,1,1
+9,17-10-2026 05:54:00,4257518,11007,ZTurbo.Everton,11023,ZTurbo.Hull,2,0,2,0,4,1
+9,17-10-2026 05:54:00,4257519,11018,ZTurbo.Sunderland,11017,ZTurbo.Nottingham Forest,0,1,0,1,3,3
+9,17-10-2026 05:54:00,4257520,11009,ZTurbo.Fulham,11015,ZTurbo.Aston Villa,3,2,2,0,1,1
+9,17-10-2026 05:54:00,4257521,11005,ZTurbo.Tottenham,11002,ZTurbo.Man United,2,2,1,1,3,1
+9,17-10-2026 05:54:00,4257522,11001,ZTurbo.Man City,11016,ZTurbo.Brentford,3,0,1,0,4,2
+10,17-10-2026 06:05:30,4257523,11006,ZTurbo.Arsenal,11021,ZTurbo.Coventry City,0,1,0,0,5,3
+10,17-10-2026 06:05:30,4257524,11022,ZTurbo.Ipswich,11003,ZTurbo.Chelsea,1,0,1,0,5,1
+10,17-10-2026 06:05:30,4257525,11011,ZTurbo.Bournemouth,11004,ZTurbo.Liverpool,1,2,1,1,1,4
+10,17-10-2026 06:05:30,4257526,11023,ZTurbo.Hull,11014,ZTurbo.Brighton,0,1,0,1,3,1
+10,17-10-2026 06:05:30,4257527,11017,ZTurbo.Nottingham Forest,11012,ZTurbo.Newcastle Utd,1,3,0,0,2,4
+10,17-10-2026 06:05:30,4257528,11015,ZTurbo.Aston Villa,11007,ZTurbo.Everton,2,0,2,0,5,0
+10,17-10-2026 06:05:30,4257529,11002,ZTurbo.Man United,11018,ZTurbo.Sunderland,2,1,0,1,2,1
+10,17-10-2026 06:05:30,4257530,11016,ZTurbo.Brentford,11009,ZTurbo.Fulham,0,1,0,1,2,1
+10,17-10-2026 06:05:30,4257531,11001,ZTurbo.Man City,11005,ZTurbo.Tottenham,1,0,1,0,4,5
+10,17-10-2026 06:05:30,4257532,11019,ZTurbo.Leeds,11010,ZTurbo.Crystal Palace,1,4,1,1,0,2
+11,17-10-2026 06:17:00,4257533,11019,ZTurbo.Leeds,11022,ZTurbo.Ipswich,3,1,1,1,2,2
+11,17-10-2026 06:17:00,4257534,11021,ZTurbo.Coventry City,11011,ZTurbo.Bournemouth,1,3,0,1,1,3
+11,17-10-2026 06:17:00,4257535,11010,ZTurbo.Crystal Palace,11006,ZTurbo.Arsenal,0,1,0,0,5,4
+11,17-10-2026 06:17:00,4257536,11003,ZTurbo.Chelsea,11023,ZTurbo.Hull,1,1,1,1,5,2
+11,17-10-2026 06:17:00,4257537,11004,ZTurbo.Liverpool,11017,ZTurbo.Nottingham Forest,2,0,0,0,4,3
+11,17-10-2026 06:17:00,4257538,11014,ZTurbo.Brighton,11015,ZTurbo.Aston Villa,3,1,2,0,2,3
+11,17-10-2026 06:17:00,4257539,11012,ZTurbo.Newcastle Utd,11002,ZTurbo.Man United,2,2,1,1,2,3
+11,17-10-2026 06:17:00,4257540,11007,ZTurbo.Everton,11016,ZTurbo.Brentford,5,0,3,0,1,4
+11,17-10-2026 06:17:00,4257541,11018,ZTurbo.Sunderland,11001,ZTurbo.Man City,0,4,0,2,0,5
+11,17-10-2026 06:17:00,4257542,11009,ZTurbo.Fulham,11005,ZTurbo.Tottenham,4,0,1,0,1,1
+12,17-10-2026 06:28:30,4257543,11011,ZTurbo.Bournemouth,11006,ZTurbo.Arsenal,1,3,1,2,3,3
+12,17-10-2026 06:28:30,4257544,11022,ZTurbo.Ipswich,11010,ZTurbo.Crystal Palace,0,3,0,0,2,2
+12,17-10-2026 06:28:30,4257545,11023,ZTurbo.Hull,11019,ZTurbo.Leeds,1,1,1,0,2,3
+12,17-10-2026 06:28:30,4257546,11017,ZTurbo.Nottingham Forest,11021,ZTurbo.Coventry City,0,0,0,0,1,2
+12,17-10-2026 06:28:30,4257547,11015,ZTurbo.Aston Villa,11003,ZTurbo.Chelsea,2,1,0,0,4,3
+12,17-10-2026 06:28:30,4257548,11002,ZTurbo.Man United,11004,ZTurbo.Liverpool,2,3,0,2,3,1
+12,17-10-2026 06:28:30,4257549,11016,ZTurbo.Brentford,11014,ZTurbo.Brighton,2,1,2,0,2,2
+12,17-10-2026 06:28:30,4257550,11001,ZTurbo.Man City,11012,ZTurbo.Newcastle Utd,3,2,1,1,2,3
+12,17-10-2026 06:28:30,4257551,11005,ZTurbo.Tottenham,11007,ZTurbo.Everton,1,0,0,0,5,4
+12,17-10-2026 06:28:30,4257552,11009,ZTurbo.Fulham,11018,ZTurbo.Sunderland,2,4,1,1,1,1
+13,17-10-2026 06:40:00,4257553,11022,ZTurbo.Ipswich,11023,ZTurbo.Hull,1,1,1,0,5,1
+13,17-10-2026 06:40:00,4257554,11006,ZTurbo.Arsenal,11017,ZTurbo.Nottingham Forest,2,0,1,0,4,4
+13,17-10-2026 06:40:00,4257555,11010,ZTurbo.Crystal Palace,11011,ZTurbo.Bournemouth,1,1,1,1,1,3
+13,17-10-2026 06:40:00,4257556,11019,ZTurbo.Leeds,11015,ZTurbo.Aston Villa,1,3,0,2,1,3
+13,17-10-2026 06:40:00,4257557,11021,ZTurbo.Coventry City,11002,ZTurbo.Man United,1,4,0,2,2,2
+13,17-10-2026 06:40:00,4257558,11003,ZTurbo.Chelsea,11016,ZTurbo.Brentford,1,0,0,0,4,2
+13,17-10-2026 06:40:00,4257559,11004,ZTurbo.Liverpool,11001,ZTurbo.Man City,3,1,1,1,3,2
+13,17-10-2026 06:40:00,4257560,11014,ZTurbo.Brighton,11005,ZTurbo.Tottenham,0,0,0,0,2,4
+13,17-10-2026 06:40:00,4257561,11012,ZTurbo.Newcastle Utd,11009,ZTurbo.Fulham,4,2,3,2,2,2
+13,17-10-2026 06:40:00,4257562,11007,ZTurbo.Everton,11018,ZTurbo.Sunderland,0,1,0,0,1,5
+14,17-10-2026 06:51:30,4257563,11017,ZTurbo.Nottingham Forest,11011,ZTurbo.Bournemouth,2,1,1,0,0,2
+14,17-10-2026 06:51:30,4257564,11015,ZTurbo.Aston Villa,11022,ZTurbo.Ipswich,1,0,0,0,2,3
+14,17-10-2026 06:51:30,4257565,11023,ZTurbo.Hull,11010,ZTurbo.Crystal Palace,2,0,0,0,4,2
+14,17-10-2026 06:51:30,4257566,11002,ZTurbo.Man United,11006,ZTurbo.Arsenal,0,2,0,1,4,4
+14,17-10-2026 06:51:30,4257567,11016,ZTurbo.Brentford,11019,ZTurbo.Leeds,0,3,0,3,1,2
+14,17-10-2026 06:51:30,4257568,11001,ZTurbo.Man City,11021,ZTurbo.Coventry City,2,2,1,2,2,3
+14,17-10-2026 06:51:30,4257569,11005,ZTurbo.Tottenham,11003,ZTurbo.Chelsea,2,1,1,0,0,5
+14,17-10-2026 06:51:30,4257570,11009,ZTurbo.Fulham,11004,ZTurbo.Liverpool,0,1,0,0,2,6
+14,17-10-2026 06:51:30,4257571,11018,ZTurbo.Sunderland,11014,ZTurbo.Brighton,1,1,0,0,2,4
+14,17-10-2026 06:51:30,4257572,11007,ZTurbo.Everton,11012,ZTurbo.Newcastle Utd,0,1,0,1,2,3
+15,17-10-2026 07:03:00,4257573,11010,ZTurbo.Crystal Palace,11017,ZTurbo.Nottingham Forest,0,2,0,1,4,2
+15,17-10-2026 07:03:00,4257574,11023,ZTurbo.Hull,11015,ZTurbo.Aston Villa,1,5,1,1,0,3
+15,17-10-2026 07:03:00,4257575,11011,ZTurbo.Bournemouth,11002,ZTurbo.Man United,1,0,0,0,1,5
+15,17-10-2026 07:03:00,4257576,11022,ZTurbo.Ipswich,11016,ZTurbo.Brentford,1,2,0,2,1,2
+15,17-10-2026 07:03:00,4257577,11006,ZTurbo.Arsenal,11001,ZTurbo.Man City,0,0,0,0,7,2
+15,17-10-2026 07:03:00,4257578,11019,ZTurbo.Leeds,11005,ZTurbo.Tottenham,0,3,0,2,2,2
+15,17-10-2026 07:03:00,4257579,11021,ZTurbo.Coventry City,11009,ZTurbo.Fulham,2,1,1,0,2,1
+15,17-10-2026 07:03:00,4257580,11003,ZTurbo.Chelsea,11018,ZTurbo.Sunderland,2,0,2,0,4,3
+15,17-10-2026 07:03:00,4257581,11004,ZTurbo.Liverpool,11007,ZTurbo.Everton,2,1,1,0,5,1
+15,17-10-2026 07:03:00,4257582,11014,ZTurbo.Brighton,11012,ZTurbo.Newcastle Utd,1,2,1,0,3,3
+16,17-10-2026 07:14:30,4257583,11002,ZTurbo.Man United,11017,ZTurbo.Nottingham Forest,1,1,0,0,3,3
+16,17-10-2026 07:14:30,4257584,11016,ZTurbo.Brentford,11023,ZTurbo.Hull,2,1,1,0,0,3
+16,17-10-2026 07:14:30,4257585,11001,ZTurbo.Man City,11011,ZTurbo.Bournemouth,6,0,3,0,2,2
+16,17-10-2026 07:14:30,4257586,11005,ZTurbo.Tottenham,11022,ZTurbo.Ipswich,2,1,1,0,1,3
+16,17-10-2026 07:14:30,4257587,11009,ZTurbo.Fulham,11006,ZTurbo.Arsenal,0,1,0,0,1,6
+16,17-10-2026 07:14:30,4257588,11015,ZTurbo.Aston Villa,11010,ZTurbo.Crystal Palace,3,0,2,0,2,4
+16,17-10-2026 07:14:30,4257589,11018,ZTurbo.Sunderland,11019,ZTurbo.Leeds,2,0,0,0,1,1
+16,17-10-2026 07:14:30,4257590,11007,ZTurbo.Everton,11021,ZTurbo.Coventry City,2,1,0,1,2,1
+16,17-10-2026 07:14:30,4257591,11012,ZTurbo.Newcastle Utd,11003,ZTurbo.Chelsea,1,2,0,2,2,2
+16,17-10-2026 07:14:30,4257592,11014,ZTurbo.Brighton,11004,ZTurbo.Liverpool,2,2,0,1,1,4
+17,17-10-2026 07:26:00,4257593,11015,ZTurbo.Aston Villa,11016,ZTurbo.Brentford,0,0,0,0,4,3
+17,17-10-2026 07:26:00,4257594,11017,ZTurbo.Nottingham Forest,11001,ZTurbo.Man City,1,4,0,1,2,1
+17,17-10-2026 07:26:00,4257595,11023,ZTurbo.Hull,11005,ZTurbo.Tottenham,0,1,0,0,3,4
+17,17-10-2026 07:26:00,4257596,11011,ZTurbo.Bournemouth,11009,ZTurbo.Fulham,3,3,1,2,2,2
+17,17-10-2026 07:26:00,4257597,11022,ZTurbo.Ipswich,11018,ZTurbo.Sunderland,0,1,0,0,3,2
+17,17-10-2026 07:26:00,4257598,11006,ZTurbo.Arsenal,11007,ZTurbo.Everton,4,0,2,0,3,2
+17,17-10-2026 07:26:00,4257599,11010,ZTurbo.Crystal Palace,11002,ZTurbo.Man United,0,0,0,0,3,5
+17,17-10-2026 07:26:00,4257600,11019,ZTurbo.Leeds,11012,ZTurbo.Newcastle Utd,1,1,1,1,1,0
+17,17-10-2026 07:26:00,4257601,11021,ZTurbo.Coventry City,11014,ZTurbo.Brighton,0,3,0,2,0,2
+17,17-10-2026 07:26:00,4257602,11003,ZTurbo.Chelsea,11004,ZTurbo.Liverpool,1,0,1,0,2,5
+18,17-10-2026 07:37:30,4257603,11001,ZTurbo.Man City,11002,ZTurbo.Man United,0,4,0,2,4,2
+18,17-10-2026 07:37:30,4257604,11005,ZTurbo.Tottenham,11015,ZTurbo.Aston Villa,1,3,0,1,1,3
+18,17-10-2026 07:37:30,4257605,11009,ZTurbo.Fulham,11017,ZTurbo.Nottingham Forest,1,0,0,0,4,2
+18,17-10-2026 07:37:30,4257606,11018,ZTurbo.Sunderland,11023,ZTurbo.Hull,2,1,1,0,3,1
+18,17-10-2026 07:37:30,4257607,11007,ZTurbo.Everton,11011,ZTurbo.Bournemouth,3,4,2,1,2,0
+18,17-10-2026 07:37:30,4257608,11012,ZTurbo.Newcastle Utd,11022,ZTurbo.Ipswich,1,0,1,0,2,3
+18,17-10-2026 07:37:30,4257609,11016,ZTurbo.Brentford,11010,ZTurbo.Crystal Palace,2,1,1,0,2,3
+18,17-10-2026 07:37:30,4257610,11014,ZTurbo.Brighton,11006,ZTurbo.Arsenal,0,3,0,0,2,5
+18,17-10-2026 07:37:30,4257611,11004,ZTurbo.Liverpool,11019,ZTurbo.Leeds,4,0,3,0,2,4
+18,17-10-2026 07:37:30,4257612,11003,ZTurbo.Chelsea,11021,ZTurbo.Coventry City,2,0,1,0,6,2
+19,17-10-2026 07:49:00,4257613,11016,ZTurbo.Brentford,11005,ZTurbo.Tottenham,1,3,1,2,0,4
+19,17-10-2026 07:49:00,4257614,11002,ZTurbo.Man United,11009,ZTurbo.Fulham,2,0,1,0,5,1
+19,17-10-2026 07:49:00,4257615,11010,ZTurbo.Crystal Palace,11001,ZTurbo.Man City,0,4,0,2,4,1
+19,17-10-2026 07:49:00,4257616,11015,ZTurbo.Aston Villa,11018,ZTurbo.Sunderland,1,0,1,0,3,4
+19,17-10-2026 07:49:00,4257617,11017,ZTurbo.Nottingham Forest,11007,ZTurbo.Everton,1,2,0,1,1,3
+19,17-10-2026 07:49:00,4257618,11023,ZTurbo.Hull,11012,ZTurbo.Newcastle Utd,0,1,0,0,1,4
+19,17-10-2026 07:49:00,4257619,11011,ZTurbo.Bournemouth,11014,ZTurbo.Brighton,2,0,0,0,2,3
+19,17-10-2026 07:49:00,4257620,11022,ZTurbo.Ipswich,11004,ZTurbo.Liverpool,1,1,1,1,2,4
+19,17-10-2026 07:49:00,4257621,11006,ZTurbo.Arsenal,11003,ZTurbo.Chelsea,3,1,2,0,3,3
+19,17-10-2026 07:49:00,4257622,11019,ZTurbo.Leeds,11021,ZTurbo.Coventry City,2,0,1,0,1,1
+20,17-10-2026 08:00:30,4257623,11009,ZTurbo.Fulham,11001,ZTurbo.Man City,0,1,0,1,4,4
+20,17-10-2026 08:00:30,4257624,11018,ZTurbo.Sunderland,11016,ZTurbo.Brentford,0,1,0,1,2,5
+20,17-10-2026 08:00:30,4257625,11007,ZTurbo.Everton,11002,ZTurbo.Man United,0,3,0,0,3,3
+20,17-10-2026 08:00:30,4257626,11005,ZTurbo.Tottenham,11010,ZTurbo.Crystal Palace,0,1,0,1,5,3
+20,17-10-2026 08:00:30,4257627,11012,ZTurbo.Newcastle Utd,11015,ZTurbo.Aston Villa,1,1,1,0,2,5
+20,17-10-2026 08:00:30,4257628,11014,ZTurbo.Brighton,11017,ZTurbo.Nottingham Forest,4,1,2,1,2,0
+20,17-10-2026 08:00:30,4257629,11004,ZTurbo.Liverpool,11023,ZTurbo.Hull,6,1,2,1,3,0
+20,17-10-2026 08:00:30,4257630,11003,ZTurbo.Chelsea,11011,ZTurbo.Bournemouth,2,0,2,0,4,3
+20,17-10-2026 08:00:30,4257631,11021,ZTurbo.Coventry City,11022,ZTurbo.Ipswich,0,0,0,0,4,2
+20,17-10-2026 08:00:30,4257632,11019,ZTurbo.Leeds,11006,ZTurbo.Arsenal,2,1,1,0,4,2
