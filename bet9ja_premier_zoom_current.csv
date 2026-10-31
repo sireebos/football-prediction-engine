@@ -1,0 +1,311 @@
+Season,Round,Match Time,Match ID,Home Team ID,Home Team,Away Team ID,Away Team,Home Score,Away Score,Total Goals,Result 1X2,Over/Under 1.5,Over/Under 2.5,Over/Under 3.5,BTTS (GG/NG),HT Home Score,HT Away Score,HT Result 1X2,Home Corners,Away Corners,Total Corners,HT Home Corners,HT Away Corners,Goalscorers Home,Goalscorers Away
+Current Season,1,29-10-2026 08:00:00,4283619,1024,Z.Coventry City,1013,Z.Bournemouth,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,2,0,1,2,5,7,0,2,Mason-Clark (13'); Amenda (40'),
+Current Season,1,29-10-2026 08:00:00,4283620,1002,Z.Man United,1007,Z.Everton,3,1,4,1,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,9,4,13,5,3,Diallo (21'); Rashford (72'); Fernandes (81'),Barry (34')
+Current Season,1,29-10-2026 08:00:00,4283621,1020,Z.Ipswich Town,1005,Z.Tottenham,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,1,2,2,6,8,1,4,Emersonn (48'),Tonali (33')
+Current Season,1,29-10-2026 08:00:00,4283622,1014,Z.Newcastle Utd,1019,Z.Nottingham Forest,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,5,4,9,3,2,Barnes (83'),
+Current Season,1,29-10-2026 08:00:00,4283623,1012,Z.Crystal Palace,1001,Z.Man City,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,1,0,1,3,5,8,3,3,Pino (4'); Canvot (72'),Haaland (55')
+Current Season,1,29-10-2026 08:00:00,4283624,1011,Z.Fulham,1004,Z.Liverpool,0,3,3,2,Over 1.5,Over 2.5,Under 3.5,NG,0,1,2,8,5,13,3,2,,Munoz (4'); Alisson (63'); Isak (68')
+Current Season,1,29-10-2026 08:00:00,4283625,1025,Z.Hull City,1018,Z.Brentford,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,7,8,15,4,3,,Damsgaard (46')
+Current Season,1,29-10-2026 08:00:00,4283626,1003,Z.Chelsea,1021,Z.Sunderland,3,0,3,1,Over 1.5,Over 2.5,Under 3.5,NG,1,0,1,5,8,13,3,5,"Fofana (4', 80'); Palmer (70')",
+Current Season,1,29-10-2026 08:00:00,4283627,1016,Z.Brighton,1017,Z.Aston Villa,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,4,6,10,3,3,Ayari (82'),
+Current Season,1,29-10-2026 08:00:00,4283628,1022,Z.Leeds,1006,Z.Arsenal,0,4,4,2,Over 1.5,Over 2.5,Over 3.5,NG,0,2,2,4,3,7,3,3,,Rice (22'); Magalhaes (31'); Saka (80'); M.Havertz (87')
+Current Season,2,29-10-2026 09:35:00,4283629,1007,Z.Everton,1021,Z.Sunderland,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,6,10,16,1,3,,
+Current Season,2,29-10-2026 09:35:00,4283630,1005,Z.Tottenham,1024,Z.Coventry City,3,0,3,1,Over 1.5,Over 2.5,Under 3.5,NG,1,0,1,8,5,13,4,2,Gallagher (20'); Savinho (55'); van de Ven (77'),
+Current Season,2,29-10-2026 09:35:00,4283631,1019,Z.Nottingham Forest,1002,Z.Man United,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,1,11,12,0,5,,Mbeumo (57')
+Current Season,2,29-10-2026 09:35:00,4283632,1001,Z.Man City,1020,Z.Ipswich Town,5,1,6,1,Over 1.5,Over 2.5,Over 3.5,GG,2,0,1,5,5,10,1,4,"Haaland (13', 30'); Cherki (52'); O'Reilly (56'); Semenyo (79')",Greaves (47')
+Current Season,2,29-10-2026 09:35:00,4283633,1004,Z.Liverpool,1014,Z.Newcastle Utd,1,3,4,2,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,5,7,12,2,1,Gakpo (33'),"Wissa (24', 66'); Elanga (65')"
+Current Season,2,29-10-2026 09:35:00,4283634,1018,Z.Brentford,1012,Z.Crystal Palace,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,1,2,6,10,16,5,5,,Mitchell (28'); Khalaili (53')
+Current Season,2,29-10-2026 09:35:00,4283635,1017,Z.Aston Villa,1011,Z.Fulham,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,4,6,10,3,3,,Garcia (86')
+Current Season,2,29-10-2026 09:35:00,4283636,1013,Z.Bournemouth,1003,Z.Chelsea,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,6,4,10,5,2,Tavernier (35'),
+Current Season,2,29-10-2026 09:35:00,4283637,1006,Z.Arsenal,1025,Z.Hull City,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,0,0,X,8,6,14,3,2,"M.Havertz (82', 83')",
+Current Season,2,29-10-2026 09:35:00,4283638,1022,Z.Leeds,1016,Z.Brighton,2,3,5,2,Over 1.5,Over 2.5,Over 3.5,GG,2,1,1,5,7,12,3,2,Okafor (22'); Tanaka (33'),Boscagli (14'); Yalcouye (50'); Kadioglu (73')
+Current Season,3,29-10-2026 11:10:00,4283639,1013,Z.Bournemouth,1005,Z.Tottenham,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,5,7,12,3,6,Tavernier (39'),
+Current Season,3,29-10-2026 11:10:00,4283640,1021,Z.Sunderland,1019,Z.Nottingham Forest,2,2,4,X,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,7,10,17,3,8,Brobbey (19'); Roefs (58'),Aina (10'); Schlager (63')
+Current Season,3,29-10-2026 11:10:00,4283641,1024,Z.Coventry City,1001,Z.Man City,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,1,2,1,5,6,1,2,,Foden (44')
+Current Season,3,29-10-2026 11:10:00,4283642,1002,Z.Man United,1004,Z.Liverpool,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,3,7,10,2,4,Mbeumo (43'),
+Current Season,3,29-10-2026 11:10:00,4283643,1020,Z.Ipswich Town,1018,Z.Brentford,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,1,2,3,6,9,1,4,,Schade (22')
+Current Season,3,29-10-2026 11:10:00,4283644,1014,Z.Newcastle Utd,1017,Z.Aston Villa,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,0,0,X,6,6,12,3,1,"Willock (53', 80')",Hemmings (50')
+Current Season,3,29-10-2026 11:10:00,4283645,1003,Z.Chelsea,1007,Z.Everton,4,1,5,1,Over 1.5,Over 2.5,Over 3.5,GG,2,0,1,7,9,16,3,7,"Hato (8', 11'); Neto (60'); Pedro (87')",Johnson (73')
+Current Season,3,29-10-2026 11:10:00,4283646,1012,Z.Crystal Palace,1006,Z.Arsenal,3,1,4,1,Over 1.5,Over 2.5,Over 3.5,GG,2,1,1,4,4,8,2,3,Larsen (31'); Kamada (39'); Mitchell (76'),Odegaard (27')
+Current Season,3,29-10-2026 11:10:00,4283647,1011,Z.Fulham,1022,Z.Leeds,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,2,0,1,6,2,8,2,1,"Bassey (35', 40')",
+Current Season,3,29-10-2026 11:10:00,4283648,1025,Z.Hull City,1016,Z.Brighton,0,3,3,2,Over 1.5,Over 2.5,Under 3.5,NG,0,1,2,2,5,7,1,3,,Yalcouye (30'); Kostoulas (83'); DeCuyper (90')
+Current Season,4,29-10-2026 12:45:00,4283649,1019,Z.Nottingham Forest,1007,Z.Everton,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,0,1,2,10,5,15,4,2,McAtee (74'),Tarkowski (19'); Johnson (56')
+Current Season,4,29-10-2026 12:45:00,4283650,1001,Z.Man City,1013,Z.Bournemouth,5,0,5,1,Over 1.5,Over 2.5,Over 3.5,NG,3,0,1,8,4,12,5,2,"Haaland (1'); Foden (2'); Semenyo (9', 85'); O'Reilly (83')",
+Current Season,4,29-10-2026 12:45:00,4283651,1004,Z.Liverpool,1021,Z.Sunderland,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,6,4,10,2,2,,Mandava (78')
+Current Season,4,29-10-2026 12:45:00,4283652,1005,Z.Tottenham,1003,Z.Chelsea,2,2,4,X,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,4,5,9,2,4,Marmoush (35'); Gallagher (81'),Rogers (28'); Henderson (53')
+Current Season,4,29-10-2026 12:45:00,4283653,1018,Z.Brentford,1024,Z.Coventry City,3,1,4,1,Over 1.5,Over 2.5,Over 3.5,GG,1,0,1,8,1,9,4,1,Kayode (34'); D.Ouattara (63'); Damsgaard (71'),Rudoni (53')
+Current Season,4,29-10-2026 12:45:00,4283654,1017,Z.Aston Villa,1002,Z.Man United,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,1,0,1,5,5,10,4,1,McGinn (33'); Buendia (69'),Maguire (90')
+Current Season,4,29-10-2026 12:45:00,4283655,1006,Z.Arsenal,1020,Z.Ipswich Town,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,1,0,1,8,3,11,2,2,Rice (8'); Konsa (69'),
+Current Season,4,29-10-2026 12:45:00,4283656,1022,Z.Leeds,1014,Z.Newcastle Utd,2,4,6,2,Over 1.5,Over 2.5,Over 3.5,GG,1,2,2,2,14,16,1,5,Calvert-Lewin (15'); Bogle (46'),"Wissa (5', 79'); Botman (10'); Willock (75')"
+Current Season,4,29-10-2026 12:45:00,4283657,1016,Z.Brighton,1012,Z.Crystal Palace,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,0,0,X,5,8,13,3,5,Yalcouye (46'),Larsen (72'); Pino (73')
+Current Season,4,29-10-2026 12:45:00,4283658,1025,Z.Hull City,1011,Z.Fulham,0,3,3,2,Over 1.5,Over 2.5,Under 3.5,NG,0,1,2,4,4,8,2,1,,"Garcia (25', 88'); Charles (64')"
+Current Season,5,29-10-2026 14:20:00,4283659,1005,Z.Tottenham,1001,Z.Man City,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,3,8,11,3,4,Tonali (9'),
+Current Season,5,29-10-2026 14:20:00,4283660,1007,Z.Everton,1004,Z.Liverpool,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,1,2,5,8,13,2,5,Dewsbury-Hall (79'),Isak (31')
+Current Season,5,29-10-2026 14:20:00,4283661,1013,Z.Bournemouth,1018,Z.Brentford,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,1,0,1,4,9,13,3,6,Tavernier (16'); Rayan (65'),
+Current Season,5,29-10-2026 14:20:00,4283662,1021,Z.Sunderland,1017,Z.Aston Villa,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,3,5,8,2,3,Brobbey (37'),Buendia (33'); Kamara (80')
+Current Season,5,29-10-2026 14:20:00,4283663,1003,Z.Chelsea,1019,Z.Nottingham Forest,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,1,2,0,5,5,0,3,,Williams (36')
+Current Season,5,29-10-2026 14:20:00,4283664,1024,Z.Coventry City,1006,Z.Arsenal,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,1,2,2,2,7,9,1,2,Awoniyi (40'),White (25'); Odegaard (38')
+Current Season,5,29-10-2026 14:20:00,4283665,1002,Z.Man United,1022,Z.Leeds,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,5,4,9,3,1,,Tanaka (65')
+Current Season,5,29-10-2026 14:20:00,4283666,1020,Z.Ipswich Town,1016,Z.Brighton,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,4,5,9,1,2,,Gross (55')
+Current Season,5,29-10-2026 14:20:00,4283667,1014,Z.Newcastle Utd,1025,Z.Hull City,3,0,3,1,Over 1.5,Over 2.5,Under 3.5,NG,2,0,1,7,3,10,2,2,Elanga (4'); Willock (25'); Wissa (49'),
+Current Season,5,29-10-2026 14:20:00,4283668,1012,Z.Crystal Palace,1011,Z.Fulham,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,2,0,1,5,8,13,2,5,Richards (8'); Larsen (44'),
+Current Season,6,29-10-2026 15:55:00,4283669,1004,Z.Liverpool,1019,Z.Nottingham Forest,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,0,1,2,3,2,5,1,1,Gakpo (73'); Munoz (76'),Dominguez (25')
+Current Season,6,29-10-2026 15:55:00,4283670,1018,Z.Brentford,1005,Z.Tottenham,3,1,4,1,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,4,1,5,3,1,Damsgaard (3'); Ajer (49'); D.Ouattara (59'),Savinho (23')
+Current Season,6,29-10-2026 15:55:00,4283671,1017,Z.Aston Villa,1007,Z.Everton,4,1,5,1,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,7,8,15,3,5,Jackson (3'); Barkley (51'); McGinn (55'); Kamara (57'),Barry (17')
+Current Season,6,29-10-2026 15:55:00,4283672,1006,Z.Arsenal,1013,Z.Bournemouth,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,1,1,X,5,11,16,3,3,Odegaard (34'),Evanilson (19')
+Current Season,6,29-10-2026 15:55:00,4283673,1022,Z.Leeds,1021,Z.Sunderland,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,2,2,3,9,12,0,6,,Mukiele (8'); Meunier (24')
+Current Season,6,29-10-2026 15:55:00,4283674,1016,Z.Brighton,1024,Z.Coventry City,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,1,0,1,9,4,13,3,2,D.Gomez (28'); Dunk (77'),Rudoni (60')
+Current Season,6,29-10-2026 15:55:00,4283675,1025,Z.Hull City,1002,Z.Man United,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,5,9,14,2,5,Belloumi (14'),
+Current Season,6,29-10-2026 15:55:00,4283676,1001,Z.Man City,1003,Z.Chelsea,6,1,7,1,Over 1.5,Over 2.5,Over 3.5,GG,3,1,1,4,4,8,3,3,"Haaland (8', 36', 80'); Semenyo (10', 63'); Khusanov (57')",Pedro (40')
+Current Season,6,29-10-2026 15:55:00,4283677,1011,Z.Fulham,1020,Z.Ipswich Town,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,3,5,8,1,3,Garcia (75'),
+Current Season,6,29-10-2026 15:55:00,4283678,1012,Z.Crystal Palace,1014,Z.Newcastle Utd,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,1,2,2,5,4,9,3,4,Khalaili (7'),Barnes (9'); Dedic (21')
+Current Season,7,29-10-2026 17:30:00,4283679,1001,Z.Man City,1018,Z.Brentford,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,6,10,16,4,6,Cherki (23'),
+Current Season,7,29-10-2026 17:30:00,4283680,1019,Z.Nottingham Forest,1017,Z.Aston Villa,0,3,3,2,Over 1.5,Over 2.5,Under 3.5,NG,0,1,2,7,8,15,5,6,,Cash (22'); Mings (51'); Jackson (83')
+Current Season,7,29-10-2026 17:30:00,4283681,1005,Z.Tottenham,1006,Z.Arsenal,1,3,4,2,Over 1.5,Over 2.5,Over 3.5,GG,1,3,2,8,10,18,6,5,Marmoush (34'),M.Tzolis (4'); M.Havertz (19'); Saka (44')
+Current Season,7,29-10-2026 17:30:00,4283682,1007,Z.Everton,1022,Z.Leeds,0,3,3,2,Over 1.5,Over 2.5,Under 3.5,NG,0,0,X,8,4,12,8,1,,Calvert-Lewin (55'); Tanaka (69'); Ampadu (76')
+Current Season,7,29-10-2026 17:30:00,4283683,1013,Z.Bournemouth,1016,Z.Brighton,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,6,6,12,4,4,,
+Current Season,7,29-10-2026 17:30:00,4283684,1021,Z.Sunderland,1025,Z.Hull City,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,9,2,11,6,2,Xhaka (56'),
+Current Season,7,29-10-2026 17:30:00,4283685,1003,Z.Chelsea,1004,Z.Liverpool,1,3,4,2,Over 1.5,Over 2.5,Over 3.5,GG,0,0,X,3,6,9,2,5,Pedro (77'),"Gakpo (52', 60'); Wirtz (76')"
+Current Season,7,29-10-2026 17:30:00,4283686,1024,Z.Coventry City,1011,Z.Fulham,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,3,9,12,1,2,,
+Current Season,7,29-10-2026 17:30:00,4283687,1002,Z.Man United,1012,Z.Crystal Palace,3,0,3,1,Over 1.5,Over 2.5,Under 3.5,NG,1,0,1,9,3,12,4,1,"Fernandes (39', 89'); Mbeumo (76')",
+Current Season,7,29-10-2026 17:30:00,4283688,1020,Z.Ipswich Town,1014,Z.Newcastle Utd,1,3,4,2,Over 1.5,Over 2.5,Over 3.5,GG,0,1,2,9,4,13,8,2,Fatawu (58'),Barnes (3'); Botman (48'); Hall (85')
+Current Season,8,29-10-2026 19:05:00,4283689,1017,Z.Aston Villa,1004,Z.Liverpool,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,1,2,4,9,13,1,5,,Munoz (12'); Wirtz (71')
+Current Season,8,29-10-2026 19:05:00,4283690,1006,Z.Arsenal,1001,Z.Man City,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,0,0,X,6,12,18,4,4,"Saka (70', 74')",
+Current Season,8,29-10-2026 19:05:00,4283691,1022,Z.Leeds,1019,Z.Nottingham Forest,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,6,9,15,3,3,,
+Current Season,8,29-10-2026 19:05:00,4283692,1016,Z.Brighton,1005,Z.Tottenham,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,0,X,3,9,12,3,5,,Gallagher (52'); Marmoush (82')
+Current Season,8,29-10-2026 19:05:00,4283693,1025,Z.Hull City,1007,Z.Everton,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,0,X,7,4,11,5,2,McBurnie (89'),Mykolenko (76')
+Current Season,8,29-10-2026 19:05:00,4283694,1011,Z.Fulham,1013,Z.Bournemouth,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,1,2,3,8,11,0,7,,Cook (32')
+Current Season,8,29-10-2026 19:05:00,4283695,1012,Z.Crystal Palace,1021,Z.Sunderland,4,0,4,1,Over 1.5,Over 2.5,Over 3.5,NG,1,0,1,5,2,7,3,0,"Larsen (45'); Kamada (58', 84'); Khalaili (71')",
+Current Season,8,29-10-2026 19:05:00,4283696,1014,Z.Newcastle Utd,1024,Z.Coventry City,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,6,5,11,3,0,,Awoniyi (60')
+Current Season,8,29-10-2026 19:05:00,4283697,1020,Z.Ipswich Town,1002,Z.Man United,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,6,7,13,5,4,,M.Cunha (48')
+Current Season,8,29-10-2026 19:05:00,4283698,1018,Z.Brentford,1003,Z.Chelsea,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,1,2,5,6,11,3,5,,Neto (4')
+Current Season,9,29-10-2026 20:40:00,4283699,1018,Z.Brentford,1006,Z.Arsenal,2,2,4,X,Over 1.5,Over 2.5,Over 3.5,GG,0,1,2,10,5,15,4,4,D.Ouattara (46'); Janelt (56'),Magalhaes (22'); M.Havertz (66')
+Current Season,9,29-10-2026 20:40:00,4283700,1004,Z.Liverpool,1022,Z.Leeds,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,1,0,1,9,2,11,3,2,"Isak (39', 69')",
+Current Season,9,29-10-2026 20:40:00,4283701,1001,Z.Man City,1016,Z.Brighton,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,9,4,13,5,4,Haaland (14'),DeCuyper (29'); Yalcouye (89')
+Current Season,9,29-10-2026 20:40:00,4283702,1019,Z.Nottingham Forest,1025,Z.Hull City,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,1,2,5,6,11,1,4,,Ajayi (43'); McBurnie (78')
+Current Season,9,29-10-2026 20:40:00,4283703,1005,Z.Tottenham,1011,Z.Fulham,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,1,1,X,5,3,8,2,2,Marmoush (20'),King (13')
+Current Season,9,29-10-2026 20:40:00,4283704,1007,Z.Everton,1012,Z.Crystal Palace,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,1,2,1,4,5,0,2,Johnson (82'),Larsen (3')
+Current Season,9,29-10-2026 20:40:00,4283705,1003,Z.Chelsea,1017,Z.Aston Villa,3,1,4,1,Over 1.5,Over 2.5,Over 3.5,GG,1,0,1,2,7,9,0,4,"Palmer (41', 53'); Lacroix (60')",Hemmings (67')
+Current Season,9,29-10-2026 20:40:00,4283706,1013,Z.Bournemouth,1014,Z.Newcastle Utd,3,0,3,1,Over 1.5,Over 2.5,Under 3.5,NG,0,0,X,8,10,18,4,9,Evanilson (51'); Silva (62'); Tavernier (73'),
+Current Season,9,29-10-2026 20:40:00,4283707,1021,Z.Sunderland,1020,Z.Ipswich Town,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,9,4,13,3,4,Angulo (45'),
+Current Season,9,29-10-2026 20:40:00,4283708,1024,Z.Coventry City,1002,Z.Man United,0,3,3,2,Over 1.5,Over 2.5,Under 3.5,NG,0,1,2,3,3,6,0,2,,"M.Cunha (25'); Fernandes (50', 89')"
+Current Season,10,29-10-2026 22:15:00,4283709,1022,Z.Leeds,1017,Z.Aston Villa,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,2,5,7,2,3,Okafor (19'); Bogle (82'),Buendia (13')
+Current Season,10,29-10-2026 22:15:00,4283710,1016,Z.Brighton,1018,Z.Brentford,2,2,4,X,Over 1.5,Over 2.5,Over 3.5,GG,0,0,X,7,3,10,5,2,Kostoulas (58'); Yalcouye (76'),"Schade (70', 82')"
+Current Season,10,29-10-2026 22:15:00,4283711,1025,Z.Hull City,1004,Z.Liverpool,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,0,1,2,0,7,7,0,3,Crooks (83'),"Gakpo (42', 60')"
+Current Season,10,29-10-2026 22:15:00,4283712,1011,Z.Fulham,1001,Z.Man City,2,2,4,X,Over 1.5,Over 2.5,Over 3.5,GG,2,1,1,0,9,9,0,4,C.Palacios (2'); Garcia (16'),Khusanov (27'); Cherki (65')
+Current Season,10,29-10-2026 22:15:00,4283713,1012,Z.Crystal Palace,1019,Z.Nottingham Forest,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,0,X,3,2,5,1,1,Richards (68'),Ndoye (48')
+Current Season,10,29-10-2026 22:15:00,4283714,1014,Z.Newcastle Utd,1005,Z.Tottenham,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,2,0,1,7,2,9,4,1,Wissa (3'); Elanga (43'),
+Current Season,10,29-10-2026 22:15:00,4283715,1020,Z.Ipswich Town,1007,Z.Everton,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,3,8,11,1,3,,Johnson (57')
+Current Season,10,29-10-2026 22:15:00,4283716,1002,Z.Man United,1013,Z.Bournemouth,4,2,6,1,Over 1.5,Over 2.5,Over 3.5,GG,2,0,1,6,4,10,2,3,Diallo (20'); M.Cunha (28'); Rashford (70'); Dalot (72'),Kluivert (63'); Cook (84')
+Current Season,10,29-10-2026 22:15:00,4283717,1024,Z.Coventry City,1021,Z.Sunderland,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,1,2,7,4,11,3,1,,Meunier (43'); Brobbey (80')
+Current Season,10,29-10-2026 22:15:00,4283718,1006,Z.Arsenal,1003,Z.Chelsea,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,1,2,11,9,20,6,4,Odegaard (68'),Pedro (22')
+Current Season,11,29-10-2026 23:50:00,4283719,1006,Z.Arsenal,1016,Z.Brighton,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,0,0,X,8,1,9,3,0,"M.Havertz (72', 81')",
+Current Season,11,29-10-2026 23:50:00,4283720,1017,Z.Aston Villa,1025,Z.Hull City,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,7,6,13,3,2,Kamara (55'),
+Current Season,11,29-10-2026 23:50:00,4283721,1003,Z.Chelsea,1022,Z.Leeds,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,12,7,19,7,2,,Elvedi (54')
+Current Season,11,29-10-2026 23:50:00,4283722,1018,Z.Brentford,1011,Z.Fulham,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,1,2,7,6,13,4,5,,Iwobi (8')
+Current Season,11,29-10-2026 23:50:00,4283723,1004,Z.Liverpool,1012,Z.Crystal Palace,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,0,X,6,2,8,4,2,van Dijk (81'),Khalaili (86')
+Current Season,11,29-10-2026 23:50:00,4283724,1001,Z.Man City,1014,Z.Newcastle Utd,2,2,4,X,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,8,6,14,4,5,Guehi (45'); Cherki (82'),Elanga (38'); Hall (52')
+Current Season,11,29-10-2026 23:50:00,4283725,1019,Z.Nottingham Forest,1020,Z.Ipswich Town,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,2,0,1,3,6,9,3,4,Dominguez (18'); Williams (36'),
+Current Season,11,29-10-2026 23:50:00,4283726,1005,Z.Tottenham,1002,Z.Man United,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,4,8,12,2,1,Bentancur (16'); Marmoush (71'),Mbeumo (33')
+Current Season,11,29-10-2026 23:50:00,4283727,1007,Z.Everton,1024,Z.Coventry City,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,7,6,13,4,3,,Dasilva (83')
+Current Season,11,29-10-2026 23:50:00,4283728,1013,Z.Bournemouth,1021,Z.Sunderland,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,1,0,1,4,6,10,2,4,Cook (20'),Meunier (80')
+Current Season,12,30-10-2026 01:25:00,4283729,1025,Z.Hull City,1022,Z.Leeds,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,1,2,5,3,8,3,2,,Tanaka (15')
+Current Season,12,30-10-2026 01:25:00,4283730,1011,Z.Fulham,1006,Z.Arsenal,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,4,1,5,0,0,,
+Current Season,12,30-10-2026 01:25:00,4283731,1012,Z.Crystal Palace,1017,Z.Aston Villa,2,3,5,2,Over 1.5,Over 2.5,Over 3.5,GG,1,2,2,6,4,10,4,2,"Timber (42', 46')",Hemmings (8'); Cash (41'); McGinn (80')
+Current Season,12,30-10-2026 01:25:00,4283732,1016,Z.Brighton,1003,Z.Chelsea,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,0,X,5,6,11,2,5,Yalcouye (69'),Pedro (53')
+Current Season,12,30-10-2026 01:25:00,4283733,1014,Z.Newcastle Utd,1018,Z.Brentford,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,7,2,9,2,0,,Damsgaard (71')
+Current Season,12,30-10-2026 01:25:00,4283734,1020,Z.Ipswich Town,1004,Z.Liverpool,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,1,2,6,4,10,1,3,,"Isak (22', 75')"
+Current Season,12,30-10-2026 01:25:00,4283735,1002,Z.Man United,1001,Z.Man City,2,2,4,X,Over 1.5,Over 2.5,Over 3.5,GG,0,2,2,4,7,11,2,4,Fernandes (59'); Rashford (75'),Semenyo (28'); Dias (35')
+Current Season,12,30-10-2026 01:25:00,4283736,1024,Z.Coventry City,1019,Z.Nottingham Forest,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,3,6,9,2,2,Awoniyi (50'),
+Current Season,12,30-10-2026 01:25:00,4283737,1021,Z.Sunderland,1005,Z.Tottenham,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,3,4,7,1,2,,Bentancur (82')
+Current Season,12,30-10-2026 01:25:00,4283738,1013,Z.Bournemouth,1007,Z.Everton,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,0,0,X,7,3,10,4,3,Evanilson (50'); Tavernier (88'),
+Current Season,13,30-10-2026 03:00:00,4283739,1016,Z.Brighton,1011,Z.Fulham,1,3,4,2,Over 1.5,Over 2.5,Over 3.5,GG,1,2,2,4,4,8,3,0,D.Gomez (5'),King (4'); Garcia (17'); Bobb (87')
+Current Season,13,30-10-2026 03:00:00,4283740,1022,Z.Leeds,1012,Z.Crystal Palace,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,1,2,5,8,13,2,6,,Larsen (17')
+Current Season,13,30-10-2026 03:00:00,4283741,1006,Z.Arsenal,1014,Z.Newcastle Utd,4,0,4,1,Over 1.5,Over 2.5,Over 3.5,NG,1,0,1,5,5,10,3,4,"Rice (2', 59'); Guimaraes (56'); Konsa (71')",
+Current Season,13,30-10-2026 03:00:00,4283742,1017,Z.Aston Villa,1020,Z.Ipswich Town,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,2,0,1,6,5,11,1,3,McGinn (33'); Jackson (44'),
+Current Season,13,30-10-2026 03:00:00,4283743,1018,Z.Brentford,1002,Z.Man United,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,2,6,8,1,5,Damsgaard (11'),Diallo (17'); Rashford (83')
+Current Season,13,30-10-2026 03:00:00,4283744,1004,Z.Liverpool,1024,Z.Coventry City,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,2,2,1,3,4,0,1,,Dasilva (3'); Mason-Clark (34')
+Current Season,13,30-10-2026 03:00:00,4283745,1001,Z.Man City,1021,Z.Sunderland,2,4,6,2,Over 1.5,Over 2.5,Over 3.5,GG,0,1,2,9,3,12,5,2,Haaland (53'); O'Reilly (69'),Danso (31'); LeFée (58'); Brobbey (59'); Roefs (68')
+Current Season,13,30-10-2026 03:00:00,4283746,1019,Z.Nottingham Forest,1013,Z.Bournemouth,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,3,6,9,3,3,Sels (38'),
+Current Season,13,30-10-2026 03:00:00,4283747,1005,Z.Tottenham,1007,Z.Everton,2,4,6,2,Over 1.5,Over 2.5,Over 3.5,GG,0,3,2,8,5,13,2,1,Marmoush (46'); Gallagher (58'),Johnson (33'); George (38'); Dewsbury-Hall (41'); Mykolenko (88')
+Current Season,13,30-10-2026 03:00:00,4283748,1003,Z.Chelsea,1025,Z.Hull City,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,0,X,9,2,11,6,1,Hato (52'),Coyle (87')
+Current Season,14,30-10-2026 04:35:00,4283749,1012,Z.Crystal Palace,1025,Z.Hull City,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,0,0,X,5,4,9,0,2,Pino (85'); Richards (89'),Belloumi (71')
+Current Season,14,30-10-2026 04:35:00,4283750,1014,Z.Newcastle Utd,1016,Z.Brighton,0,3,3,2,Over 1.5,Over 2.5,Under 3.5,NG,0,1,2,8,9,17,5,4,,"Yalcouye (20', 60', 90')"
+Current Season,14,30-10-2026 04:35:00,4283751,1020,Z.Ipswich Town,1022,Z.Leeds,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,0,X,2,3,5,0,2,Maeda (76'),Stach (87')
+Current Season,14,30-10-2026 04:35:00,4283752,1002,Z.Man United,1006,Z.Arsenal,3,1,4,1,Over 1.5,Over 2.5,Over 3.5,GG,1,0,1,6,7,13,3,4,Mbeumo (34'); Tielemans (65'); M.Cunha (86'),Rice (84')
+Current Season,14,30-10-2026 04:35:00,4283753,1024,Z.Coventry City,1017,Z.Aston Villa,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,3,8,11,0,3,Dasilva (30'),
+Current Season,14,30-10-2026 04:35:00,4283754,1021,Z.Sunderland,1018,Z.Brentford,3,2,5,1,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,8,5,13,4,3,Meunier (13'); Brobbey (63'); Angulo (81'),Janelt (39'); D.Ouattara (52')
+Current Season,14,30-10-2026 04:35:00,4283755,1013,Z.Bournemouth,1004,Z.Liverpool,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,5,4,9,4,2,Hill (26'); Kluivert (62'),Kerkez (3')
+Current Season,14,30-10-2026 04:35:00,4283756,1007,Z.Everton,1001,Z.Man City,0,3,3,2,Over 1.5,Over 2.5,Under 3.5,NG,0,1,2,5,6,11,2,3,,Semenyo (23'); O'Reilly (67'); Haaland (88')
+Current Season,14,30-10-2026 04:35:00,4283757,1005,Z.Tottenham,1019,Z.Nottingham Forest,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,0,X,8,6,14,3,3,Tel (88'),Dominguez (68')
+Current Season,14,30-10-2026 04:35:00,4283758,1011,Z.Fulham,1003,Z.Chelsea,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,0,1,2,3,5,8,1,4,King (75'),Palmer (11'); Rogers (77')
+Current Season,15,30-10-2026 06:10:00,4283759,1011,Z.Fulham,1014,Z.Newcastle Utd,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,2,2,3,7,10,3,3,,"Gonzalez (21', 36')"
+Current Season,15,30-10-2026 06:10:00,4283760,1025,Z.Hull City,1020,Z.Ipswich Town,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,1,4,5,0,0,McBurnie (10'),O'Shea (28'); Maeda (84')
+Current Season,15,30-10-2026 06:10:00,4283761,1016,Z.Brighton,1002,Z.Man United,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,1,0,1,2,7,9,1,4,D.Gomez (18'),M.Cunha (54')
+Current Season,15,30-10-2026 06:10:00,4283762,1022,Z.Leeds,1024,Z.Coventry City,4,1,5,1,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,3,3,6,2,2,Stach (29'); Okafor (56'); Elvedi (72'); Tanaka (82'),Mason-Clark (27')
+Current Season,15,30-10-2026 06:10:00,4283763,1006,Z.Arsenal,1021,Z.Sunderland,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,8,5,13,3,2,,
+Current Season,15,30-10-2026 06:10:00,4283764,1017,Z.Aston Villa,1013,Z.Bournemouth,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,3,4,7,3,2,,Cook (64')
+Current Season,15,30-10-2026 06:10:00,4283765,1018,Z.Brentford,1007,Z.Everton,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,2,0,1,3,1,4,2,1,Schade (20'); Damsgaard (33'),Dewsbury-Hall (80')
+Current Season,15,30-10-2026 06:10:00,4283766,1004,Z.Liverpool,1005,Z.Tottenham,3,0,3,1,Over 1.5,Over 2.5,Under 3.5,NG,1,0,1,3,6,9,2,4,Mac Allister (11'); Szoboszlai (55'); Isak (89'),
+Current Season,15,30-10-2026 06:10:00,4283767,1003,Z.Chelsea,1012,Z.Crystal Palace,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,8,5,13,6,3,,
+Current Season,15,30-10-2026 06:10:00,4283768,1001,Z.Man City,1019,Z.Nottingham Forest,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,0,X,7,5,12,5,1,Foden (89'),Murillo (46')
+Current Season,16,30-10-2026 07:45:00,4283769,1020,Z.Ipswich Town,1012,Z.Crystal Palace,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,3,7,10,2,4,,
+Current Season,16,30-10-2026 07:45:00,4283770,1002,Z.Man United,1011,Z.Fulham,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,7,3,10,4,1,,
+Current Season,16,30-10-2026 07:45:00,4283771,1024,Z.Coventry City,1025,Z.Hull City,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,2,9,11,1,4,Awoniyi (42'),
+Current Season,16,30-10-2026 07:45:00,4283772,1021,Z.Sunderland,1016,Z.Brighton,4,1,5,1,Over 1.5,Over 2.5,Over 3.5,GG,1,0,1,5,2,7,1,1,"LeFée (21', 69', 82'); Ballard (53')",D.Gomez (73')
+Current Season,16,30-10-2026 07:45:00,4283773,1014,Z.Newcastle Utd,1003,Z.Chelsea,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,1,0,1,4,9,13,1,4,Willock (22'),Lavia (54')
+Current Season,16,30-10-2026 07:45:00,4283774,1013,Z.Bournemouth,1022,Z.Leeds,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,8,3,11,3,1,Tavernier (29'); Silva (47'),Bogle (10')
+Current Season,16,30-10-2026 07:45:00,4283775,1007,Z.Everton,1006,Z.Arsenal,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,1,2,2,5,7,2,3,,Rice (24')
+Current Season,16,30-10-2026 07:45:00,4283776,1005,Z.Tottenham,1017,Z.Aston Villa,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,8,2,10,3,1,Gallagher (19'),
+Current Season,16,30-10-2026 07:45:00,4283777,1019,Z.Nottingham Forest,1018,Z.Brentford,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,7,2,9,4,1,Milenkovic (66'),
+Current Season,16,30-10-2026 07:45:00,4283778,1001,Z.Man City,1004,Z.Liverpool,3,1,4,1,Over 1.5,Over 2.5,Over 3.5,GG,2,1,1,7,3,10,2,2,Cherki (5'); Foden (35'); Guehi (64'),Jacquet (38')
+Current Season,17,30-10-2026 09:20:00,4283779,1014,Z.Newcastle Utd,1002,Z.Man United,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,1,0,1,8,6,14,4,3,Wissa (1'),L.Martinez (83')
+Current Season,17,30-10-2026 09:20:00,4283780,1012,Z.Crystal Palace,1024,Z.Coventry City,3,0,3,1,Over 1.5,Over 2.5,Under 3.5,NG,0,0,X,6,2,8,2,0,"Pino (75'); Larsen (77', 82')",
+Current Season,17,30-10-2026 09:20:00,4283781,1011,Z.Fulham,1021,Z.Sunderland,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,2,0,1,9,4,13,5,2,Bobb (24'); C.Palacios (45'),
+Current Season,17,30-10-2026 09:20:00,4283782,1025,Z.Hull City,1013,Z.Bournemouth,4,1,5,1,Over 1.5,Over 2.5,Over 3.5,GG,3,0,1,3,6,9,2,3,"McBurnie (26', 31'); Slater (42'); S.Thomas (54')",Kluivert (72')
+Current Season,17,30-10-2026 09:20:00,4283783,1016,Z.Brighton,1007,Z.Everton,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,8,4,12,4,2,Yalcouye (14'),
+Current Season,17,30-10-2026 09:20:00,4283784,1022,Z.Leeds,1005,Z.Tottenham,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,0,X,3,6,9,2,4,,"Gallagher (61', 74')"
+Current Season,17,30-10-2026 09:20:00,4283785,1006,Z.Arsenal,1019,Z.Nottingham Forest,3,1,4,1,Over 1.5,Over 2.5,Over 3.5,GG,3,1,1,11,4,15,6,2,M.Havertz (11'); Odegaard (20'); M.Tzolis (28'),Williams (29')
+Current Season,17,30-10-2026 09:20:00,4283786,1017,Z.Aston Villa,1001,Z.Man City,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,1,0,1,7,5,12,4,4,Barkley (13'); Jackson (56'),
+Current Season,17,30-10-2026 09:20:00,4283787,1003,Z.Chelsea,1020,Z.Ipswich Town,5,3,8,1,Over 1.5,Over 2.5,Over 3.5,GG,4,1,1,7,4,11,4,4,"Hato (12'); Rogers (43'); Henderson (44'); Pedro (45', 69')",Diop (1'); Maeda (60'); Enciso (71')
+Current Season,17,30-10-2026 09:20:00,4283788,1018,Z.Brentford,1004,Z.Liverpool,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,8,4,12,3,3,Janelt (7'); D.Ouattara (50'),Munoz (32')
+Current Season,18,30-10-2026 10:55:00,4283789,1024,Z.Coventry City,1020,Z.Ipswich Town,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,1,2,7,3,10,6,0,,E.Palacios (44')
+Current Season,18,30-10-2026 10:55:00,4283790,1021,Z.Sunderland,1014,Z.Newcastle Utd,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,0,1,2,4,5,9,2,4,Brobbey (53'); Xhaka (54'),Miley (27')
+Current Season,18,30-10-2026 10:55:00,4283791,1013,Z.Bournemouth,1012,Z.Crystal Palace,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,2,1,1,10,4,14,4,3,Adams (11'); Evanilson (23'),Larsen (24')
+Current Season,18,30-10-2026 10:55:00,4283792,1007,Z.Everton,1011,Z.Fulham,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,1,2,1,6,7,1,2,,Robinson (29')
+Current Season,18,30-10-2026 10:55:00,4283793,1005,Z.Tottenham,1025,Z.Hull City,4,0,4,1,Over 1.5,Over 2.5,Over 3.5,NG,2,0,1,12,1,13,3,0,"Savinho (6', 35', 66'); Marmoush (68')",
+Current Season,18,30-10-2026 10:55:00,4283794,1019,Z.Nottingham Forest,1016,Z.Brighton,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,0,0,X,4,3,7,3,0,Williams (87'),Gross (50'); Kostoulas (81')
+Current Season,18,30-10-2026 10:55:00,4283795,1002,Z.Man United,1003,Z.Chelsea,4,3,7,1,Over 1.5,Over 2.5,Over 3.5,GG,1,0,1,8,3,11,3,1,"Mbeumo (6'); Rashford (49'); Fernandes (55', 74')",Neto (46'); Hato (80'); Rogers (90')
+Current Season,18,30-10-2026 10:55:00,4283796,1001,Z.Man City,1022,Z.Leeds,5,0,5,1,Over 1.5,Over 2.5,Over 3.5,NG,1,0,1,6,5,11,2,4,Guehi (5'); Cherki (46'); Haaland (70'); O'Reilly (77'); Semenyo (81'),
+Current Season,18,30-10-2026 10:55:00,4283797,1004,Z.Liverpool,1006,Z.Arsenal,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,9,4,13,3,1,,Saka (88')
+Current Season,18,30-10-2026 10:55:00,4283798,1018,Z.Brentford,1017,Z.Aston Villa,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,1,2,3,2,5,2,1,,Cash (1'); Mings (70')
+Current Season,19,30-10-2026 12:30:00,4283799,1002,Z.Man United,1021,Z.Sunderland,2,2,4,X,Over 1.5,Over 2.5,Over 3.5,GG,2,1,1,8,6,14,6,3,"Dalot (21', 35')",LeFée (22'); Angulo (58')
+Current Season,19,30-10-2026 12:30:00,4283800,1020,Z.Ipswich Town,1013,Z.Bournemouth,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,2,1,1,4,8,12,2,3,Enciso (19'); Davis (44'),Rayan (38')
+Current Season,19,30-10-2026 12:30:00,4283801,1014,Z.Newcastle Utd,1007,Z.Everton,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,0,1,2,5,6,11,1,4,Wissa (57'); Gonzalez (74'),Garner (13')
+Current Season,19,30-10-2026 12:30:00,4283802,1012,Z.Crystal Palace,1005,Z.Tottenham,3,4,7,2,Over 1.5,Over 2.5,Over 3.5,GG,1,2,2,2,5,7,1,2,Kamada (31'); Wharton (52'); Khalaili (74'),"Gallagher (34', 44'); Tel (54'); Marmoush (78')"
+Current Season,19,30-10-2026 12:30:00,4283803,1003,Z.Chelsea,1024,Z.Coventry City,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,2,0,1,5,10,15,3,2,Rogers (19'); Henderson (39'),
+Current Season,19,30-10-2026 12:30:00,4283804,1011,Z.Fulham,1019,Z.Nottingham Forest,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,1,0,1,10,4,14,6,2,C.Palacios (39'),McAtee (63')
+Current Season,19,30-10-2026 12:30:00,4283805,1025,Z.Hull City,1001,Z.Man City,0,3,3,2,Over 1.5,Over 2.5,Under 3.5,NG,0,1,2,5,6,11,4,4,,"Haaland (10', 54'); Anderson (72')"
+Current Season,19,30-10-2026 12:30:00,4283806,1016,Z.Brighton,1004,Z.Liverpool,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,4,9,13,2,4,,Isak (73')
+Current Season,19,30-10-2026 12:30:00,4283807,1022,Z.Leeds,1018,Z.Brentford,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,1,0,1,1,3,4,1,1,"Ampadu (28', 66')",Sangaré (58')
+Current Season,19,30-10-2026 12:30:00,4283808,1006,Z.Arsenal,1017,Z.Aston Villa,3,2,5,1,Over 1.5,Over 2.5,Over 3.5,GG,1,2,2,5,3,8,3,0,M.Tzolis (7'); Konsa (61'); M.Havertz (68'),Jackson (24'); Hemmings (26')
+Current Season,20,30-10-2026 14:05:00,4283809,1013,Z.Bournemouth,1024,Z.Coventry City,6,1,7,1,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,5,6,11,4,3,"Evanilson (8', 80'); Rayan (49'); Smith (53'); Petrovic (70'); Tavernier (73')",Grimes (3')
+Current Season,20,30-10-2026 14:05:00,4283810,1021,Z.Sunderland,1003,Z.Chelsea,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,1,2,5,7,12,3,3,Ballard (72'),Pedro (39')
+Current Season,20,30-10-2026 14:05:00,4283811,1007,Z.Everton,1002,Z.Man United,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,0,X,6,7,13,3,5,Garner (52'),Rashford (74')
+Current Season,20,30-10-2026 14:05:00,4283812,1005,Z.Tottenham,1020,Z.Ipswich Town,3,0,3,1,Over 1.5,Over 2.5,Under 3.5,NG,3,0,1,5,2,7,1,1,Tonali (8'); Gallagher (14'); Tel (39'),
+Current Season,20,30-10-2026 14:05:00,4283813,1019,Z.Nottingham Forest,1014,Z.Newcastle Utd,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,6,6,12,3,2,,
+Current Season,20,30-10-2026 14:05:00,4283814,1001,Z.Man City,1012,Z.Crystal Palace,3,0,3,1,Over 1.5,Over 2.5,Under 3.5,NG,1,0,1,10,2,12,6,0,Haaland (19'); Foden (58'); Anderson (84'),
+Current Season,20,30-10-2026 14:05:00,4283815,1004,Z.Liverpool,1011,Z.Fulham,4,0,4,1,Over 1.5,Over 2.5,Over 3.5,NG,2,0,1,11,2,13,5,1,"Araujo (30'); Munoz (44', 80'); Gakpo (81')",
+Current Season,20,30-10-2026 14:05:00,4283816,1018,Z.Brentford,1025,Z.Hull City,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,5,2,7,2,1,Kayode (72'),
+Current Season,20,30-10-2026 14:05:00,4283817,1017,Z.Aston Villa,1016,Z.Brighton,3,3,6,X,Over 1.5,Over 2.5,Over 3.5,GG,2,2,X,5,3,8,2,2,Kamara (26'); Barkley (43'); Hemmings (71'),Dunk (18'); DeCuyper (41'); Vuskovic (84')
+Current Season,20,30-10-2026 14:05:00,4283818,1006,Z.Arsenal,1022,Z.Leeds,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,1,0,1,7,4,11,4,1,Saka (3'); M.Tzolis (83'),
+Current Season,21,30-10-2026 15:40:00,4283819,1021,Z.Sunderland,1007,Z.Everton,3,1,4,1,Over 1.5,Over 2.5,Over 3.5,GG,2,0,1,5,7,12,1,4,Mandava (19'); Brobbey (35'); Angulo (53'),Barry (84')
+Current Season,21,30-10-2026 15:40:00,4283820,1003,Z.Chelsea,1013,Z.Bournemouth,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,2,6,8,1,3,Palmer (6'),
+Current Season,21,30-10-2026 15:40:00,4283821,1024,Z.Coventry City,1005,Z.Tottenham,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,1,2,5,6,11,1,4,,Savinho (29'); Marmoush (83')
+Current Season,21,30-10-2026 15:40:00,4283822,1002,Z.Man United,1019,Z.Nottingham Forest,4,0,4,1,Over 1.5,Over 2.5,Over 3.5,NG,2,0,1,8,3,11,4,3,"M.Cunha (5', 43'); Santos (48'); Maguire (87')",
+Current Season,21,30-10-2026 15:40:00,4283823,1020,Z.Ipswich Town,1001,Z.Man City,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,1,2,9,4,13,7,2,,O'Reilly (44'); Cherki (48')
+Current Season,21,30-10-2026 15:40:00,4283824,1014,Z.Newcastle Utd,1004,Z.Liverpool,1,3,4,2,Over 1.5,Over 2.5,Over 3.5,GG,1,2,2,4,7,11,2,4,Wissa (45'),Wirtz (19'); Munoz (43'); Isak (77')
+Current Season,21,30-10-2026 15:40:00,4283825,1012,Z.Crystal Palace,1018,Z.Brentford,3,1,4,1,Over 1.5,Over 2.5,Over 3.5,GG,2,1,1,3,2,5,1,1,Timber (13'); Kamada (38'); Mitchell (88'),Thiago (1')
+Current Season,21,30-10-2026 15:40:00,4283826,1011,Z.Fulham,1017,Z.Aston Villa,3,4,7,2,Over 1.5,Over 2.5,Over 3.5,GG,2,4,2,8,7,15,4,2,"Garcia (32', 34', 87')","Jackson (5', 19'); Kamara (12'); Buendia (44')"
+Current Season,21,30-10-2026 15:40:00,4283827,1025,Z.Hull City,1006,Z.Arsenal,2,3,5,2,Over 1.5,Over 2.5,Over 3.5,GG,2,1,1,5,9,14,4,1,Crooks (20'); Belloumi (34'),Saka (32'); M.Tzolis (46'); Calafiori (72')
+Current Season,21,30-10-2026 15:40:00,4283828,1016,Z.Brighton,1022,Z.Leeds,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,4,4,8,3,0,Gross (77'),
+Current Season,22,30-10-2026 17:15:00,4283829,1005,Z.Tottenham,1013,Z.Bournemouth,4,1,5,1,Over 1.5,Over 2.5,Over 3.5,GG,1,0,1,6,5,11,3,2,"Tel (35'); Tonali (69', 85'); Savinho (72')",Rayan (51')
+Current Season,22,30-10-2026 17:15:00,4283830,1019,Z.Nottingham Forest,1021,Z.Sunderland,3,2,5,1,Over 1.5,Over 2.5,Over 3.5,GG,3,2,1,4,9,13,3,4,Delap (33'); Dominguez (43'); Schlager (45'),Angulo (8'); Mandava (12')
+Current Season,22,30-10-2026 17:15:00,4283831,1001,Z.Man City,1024,Z.Coventry City,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,2,2,4,2,1,Haaland (60'),
+Current Season,22,30-10-2026 17:15:00,4283832,1004,Z.Liverpool,1002,Z.Man United,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,7,2,9,6,0,,
+Current Season,22,30-10-2026 17:15:00,4283833,1018,Z.Brentford,1020,Z.Ipswich Town,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,0,X,5,7,12,5,2,,E.Palacios (59'); Enciso (70')
+Current Season,22,30-10-2026 17:15:00,4283834,1007,Z.Everton,1003,Z.Chelsea,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,2,2,7,5,12,4,2,,Palmer (11'); Pedro (18')
+Current Season,22,30-10-2026 17:15:00,4283835,1017,Z.Aston Villa,1014,Z.Newcastle Utd,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,7,3,10,4,2,Lindelof (79'),
+Current Season,22,30-10-2026 17:15:00,4283836,1006,Z.Arsenal,1012,Z.Crystal Palace,3,0,3,1,Over 1.5,Over 2.5,Under 3.5,NG,2,0,1,9,5,14,6,1,Saka (20'); Guimaraes (34'); M.Tzolis (76'),
+Current Season,22,30-10-2026 17:15:00,4283837,1022,Z.Leeds,1011,Z.Fulham,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,0,X,2,9,11,0,5,,Iwobi (67'); Garcia (78')
+Current Season,22,30-10-2026 17:15:00,4283838,1016,Z.Brighton,1025,Z.Hull City,3,1,4,1,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,4,6,10,1,2,Kostoulas (22'); D.Gomez (51'); Verbruggen (56'),Slater (25')
+Current Season,23,30-10-2026 18:50:00,4283839,1007,Z.Everton,1019,Z.Nottingham Forest,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,1,0,1,5,4,9,4,3,Branthwaite (36'); Armstrong (58'),Delap (51')
+Current Season,23,30-10-2026 18:50:00,4283840,1013,Z.Bournemouth,1001,Z.Man City,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,3,8,11,0,3,,Cherki (54')
+Current Season,23,30-10-2026 18:50:00,4283841,1021,Z.Sunderland,1004,Z.Liverpool,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,5,9,14,3,6,Mukiele (5'),Wirtz (40'); Szoboszlai (87')
+Current Season,23,30-10-2026 18:50:00,4283842,1024,Z.Coventry City,1018,Z.Brentford,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,1,1,X,4,8,12,1,5,Van Ewijk (25'),Janelt (22')
+Current Season,23,30-10-2026 18:50:00,4283843,1002,Z.Man United,1017,Z.Aston Villa,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,7,5,12,1,3,Maguire (7'),Lindelof (30'); Kamara (83')
+Current Season,23,30-10-2026 18:50:00,4283844,1003,Z.Chelsea,1005,Z.Tottenham,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,5,8,13,2,3,Pedro (9'),
+Current Season,23,30-10-2026 18:50:00,4283845,1020,Z.Ipswich Town,1006,Z.Arsenal,2,2,4,X,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,2,6,8,1,2,Fatawu (34'); Davis (63'),"M.Tzolis (26', 55')"
+Current Season,23,30-10-2026 18:50:00,4283846,1014,Z.Newcastle Utd,1022,Z.Leeds,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,7,4,11,3,3,,
+Current Season,23,30-10-2026 18:50:00,4283847,1012,Z.Crystal Palace,1016,Z.Brighton,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,1,2,12,2,14,7,0,,DeCuyper (1'); Gross (51')
+Current Season,23,30-10-2026 18:50:00,4283848,1011,Z.Fulham,1025,Z.Hull City,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,6,10,16,3,2,Garcia (42'),Ajayi (14'); Coyle (57')
+Current Season,24,30-10-2026 20:25:00,4283849,1001,Z.Man City,1005,Z.Tottenham,2,2,4,X,Over 1.5,Over 2.5,Over 3.5,GG,1,2,2,8,2,10,3,0,Guehi (9'); Gvardiol (61'),"Savinho (17', 37')"
+Current Season,24,30-10-2026 20:25:00,4283850,1004,Z.Liverpool,1007,Z.Everton,4,0,4,1,Over 1.5,Over 2.5,Over 3.5,NG,3,0,1,7,4,11,4,0,"Isak (14', 54'); Wirtz (20'); Gakpo (39')",
+Current Season,24,30-10-2026 20:25:00,4283851,1018,Z.Brentford,1013,Z.Bournemouth,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,0,0,X,4,6,10,2,3,"Damsgaard (68', 79')",
+Current Season,24,30-10-2026 20:25:00,4283852,1017,Z.Aston Villa,1021,Z.Sunderland,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,0,X,8,3,11,5,1,Maatsen (72'),Xhaka (66')
+Current Season,24,30-10-2026 20:25:00,4283853,1006,Z.Arsenal,1024,Z.Coventry City,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,3,5,8,0,2,M.Havertz (13'),
+Current Season,24,30-10-2026 20:25:00,4283854,1022,Z.Leeds,1002,Z.Man United,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,2,1,1,3,13,16,2,7,Calvert-Lewin (10'); Okafor (11'),Rashford (5')
+Current Season,24,30-10-2026 20:25:00,4283855,1016,Z.Brighton,1020,Z.Ipswich Town,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,0,1,2,4,4,8,1,2,D.Gomez (81'),Emersonn (21'); E.Palacios (88')
+Current Season,24,30-10-2026 20:25:00,4283856,1025,Z.Hull City,1014,Z.Newcastle Utd,1,3,4,2,Over 1.5,Over 2.5,Over 3.5,GG,0,2,2,5,9,14,3,6,McBurnie (84'),Barnes (16'); Wissa (39'); Willock (74')
+Current Season,24,30-10-2026 20:25:00,4283857,1011,Z.Fulham,1012,Z.Crystal Palace,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,1,2,3,10,13,2,4,,Larsen (26'); Mitchell (88')
+Current Season,24,30-10-2026 20:25:00,4283858,1019,Z.Nottingham Forest,1003,Z.Chelsea,0,3,3,2,Over 1.5,Over 2.5,Under 3.5,NG,0,2,2,3,6,9,1,3,,"Palmer (26', 51'); Lacroix (42')"
+Current Season,25,30-10-2026 22:00:00,4283859,1019,Z.Nottingham Forest,1004,Z.Liverpool,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,6,6,12,2,5,Dominguez (32'),Gakpo (31'); Szoboszlai (73')
+Current Season,25,30-10-2026 22:00:00,4283860,1005,Z.Tottenham,1018,Z.Brentford,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,1,0,1,2,2,4,1,1,Savinho (9'); van de Ven (79'),Sangaré (76')
+Current Season,25,30-10-2026 22:00:00,4283861,1007,Z.Everton,1017,Z.Aston Villa,0,4,4,2,Over 1.5,Over 2.5,Over 3.5,NG,0,1,2,4,8,12,1,6,,"Jackson (19', 59'); Maatsen (77'); McGinn (86')"
+Current Season,25,30-10-2026 22:00:00,4283862,1003,Z.Chelsea,1001,Z.Man City,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,6,5,11,3,1,Acheampong (5'),
+Current Season,25,30-10-2026 22:00:00,4283863,1013,Z.Bournemouth,1006,Z.Arsenal,1,4,5,2,Over 1.5,Over 2.5,Over 3.5,GG,0,1,2,15,5,20,6,4,Evanilson (63'),M.Havertz (29'); Rice (58'); Konsa (69'); Guimaraes (85')
+Current Season,25,30-10-2026 22:00:00,4283864,1021,Z.Sunderland,1022,Z.Leeds,4,0,4,1,Over 1.5,Over 2.5,Over 3.5,NG,3,0,1,8,3,11,7,1,"Angulo (16'); Brobbey (24', 72'); Sadiki (44')",
+Current Season,25,30-10-2026 22:00:00,4283865,1024,Z.Coventry City,1016,Z.Brighton,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,5,2,7,5,0,Rudoni (34'); Awoniyi (90'),DeCuyper (1')
+Current Season,25,30-10-2026 22:00:00,4283866,1002,Z.Man United,1025,Z.Hull City,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,12,5,17,6,4,Tielemans (48'),
+Current Season,25,30-10-2026 22:00:00,4283867,1020,Z.Ipswich Town,1011,Z.Fulham,1,3,4,2,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,4,4,8,2,1,E.Palacios (27'),C.Palacios (40'); Bobb (59'); Bassey (72')
+Current Season,25,30-10-2026 22:00:00,4283868,1014,Z.Newcastle Utd,1012,Z.Crystal Palace,3,1,4,1,Over 1.5,Over 2.5,Over 3.5,GG,0,1,2,2,2,4,2,1,"Miley (47', 65'); Barnes (80')",Pino (35')
+Current Season,26,30-10-2026 23:35:00,4283869,1018,Z.Brentford,1001,Z.Man City,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,1,2,8,5,13,2,3,,Donnarumma (18')
+Current Season,26,30-10-2026 23:35:00,4283870,1017,Z.Aston Villa,1019,Z.Nottingham Forest,4,0,4,1,Over 1.5,Over 2.5,Over 3.5,NG,2,0,1,4,2,6,2,1,"Hemmings (2'); Buendia (16', 69'); Jackson (54')",
+Current Season,26,30-10-2026 23:35:00,4283871,1006,Z.Arsenal,1005,Z.Tottenham,3,0,3,1,Over 1.5,Over 2.5,Under 3.5,NG,2,0,1,8,5,13,5,3,M.Tzolis (9'); Guimaraes (45'); White (54'),
+Current Season,26,30-10-2026 23:35:00,4283872,1004,Z.Liverpool,1003,Z.Chelsea,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,7,6,13,3,2,,
+Current Season,26,30-10-2026 23:35:00,4283873,1022,Z.Leeds,1007,Z.Everton,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,7,7,14,2,5,Okafor (10'),
+Current Season,26,30-10-2026 23:35:00,4283874,1016,Z.Brighton,1013,Z.Bournemouth,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,1,0,1,2,3,5,1,2,"DeCuyper (22', 70')",Cook (48')
+Current Season,26,30-10-2026 23:35:00,4283875,1025,Z.Hull City,1021,Z.Sunderland,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,2,2,6,9,15,3,6,,LeFée (28'); Danso (29')
+Current Season,26,30-10-2026 23:35:00,4283876,1011,Z.Fulham,1024,Z.Coventry City,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,2,0,1,5,3,8,5,2,Castagne (38'); Charles (44'),
+Current Season,26,30-10-2026 23:35:00,4283877,1012,Z.Crystal Palace,1002,Z.Man United,1,3,4,2,Over 1.5,Over 2.5,Over 3.5,GG,1,3,2,4,2,6,1,1,Khalaili (44'),M.Cunha (7'); Maguire (9'); Fernandes (39')
+Current Season,26,30-10-2026 23:35:00,4283878,1014,Z.Newcastle Utd,1020,Z.Ipswich Town,4,1,5,1,Over 1.5,Over 2.5,Over 3.5,GG,2,1,1,5,6,11,4,3,"Barnes (25'); Wissa (45', 61'); Willock (72')",A.Ouattara (18')
+Current Season,27,31-10-2026 01:10:00,4283879,1004,Z.Liverpool,1017,Z.Aston Villa,4,2,6,1,Over 1.5,Over 2.5,Over 3.5,GG,2,1,1,10,6,16,8,4,"Gakpo (8', 57'); Wirtz (17', 62')",Hemmings (20'); Lindelof (76')
+Current Season,27,31-10-2026 01:10:00,4283880,1001,Z.Man City,1006,Z.Arsenal,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,0,0,X,3,11,14,2,9,Guehi (74'); Haaland (85'),
+Current Season,27,31-10-2026 01:10:00,4283881,1019,Z.Nottingham Forest,1022,Z.Leeds,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,9,3,12,4,1,Williams (8'),
+Current Season,27,31-10-2026 01:10:00,4283882,1005,Z.Tottenham,1016,Z.Brighton,2,4,6,2,Over 1.5,Over 2.5,Over 3.5,GG,1,3,2,7,7,14,2,4,Bentancur (42'); Marmoush (59'),"Yalcouye (19'); Ayari (20', 44'); Kostoulas (71')"
+Current Season,27,31-10-2026 01:10:00,4283883,1007,Z.Everton,1025,Z.Hull City,4,0,4,1,Over 1.5,Over 2.5,Over 3.5,NG,1,0,1,8,3,11,3,2,Johnson (40'); Dewsbury-Hall (55'); Roehl (64'); Garner (71'),
+Current Season,27,31-10-2026 01:10:00,4283884,1013,Z.Bournemouth,1011,Z.Fulham,2,2,4,X,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,9,4,13,5,1,Truffert (33'); Tavernier (74'),Garcia (32'); King (81')
+Current Season,27,31-10-2026 01:10:00,4283885,1021,Z.Sunderland,1012,Z.Crystal Palace,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,1,0,1,5,5,10,2,2,LeFée (7'),Wharton (48')
+Current Season,27,31-10-2026 01:10:00,4283886,1024,Z.Coventry City,1014,Z.Newcastle Utd,2,3,5,2,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,3,8,11,2,6,Rudoni (34'); Awoniyi (69'),Willock (28'); Elanga (62'); Wissa (85')
+Current Season,27,31-10-2026 01:10:00,4283887,1003,Z.Chelsea,1018,Z.Brentford,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,8,4,12,5,2,Henderson (1'),
+Current Season,27,31-10-2026 01:10:00,4283888,1002,Z.Man United,1020,Z.Ipswich Town,5,1,6,1,Over 1.5,Over 2.5,Over 3.5,GG,3,1,1,5,4,9,3,2,"Maguire (7'); Tielemans (9'); M.Cunha (31', 48'); Fernandes (87')",Davis (1')
+Current Season,28,31-10-2026 02:45:00,4283889,1006,Z.Arsenal,1018,Z.Brentford,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,0,0,X,5,1,6,4,0,Guimaraes (83'); M.Tzolis (89'),
+Current Season,28,31-10-2026 02:45:00,4283890,1022,Z.Leeds,1004,Z.Liverpool,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,0,0,X,6,3,9,3,2,Okafor (83'); Bogle (88'),Munoz (56')
+Current Season,28,31-10-2026 02:45:00,4283891,1016,Z.Brighton,1001,Z.Man City,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,0,1,2,4,6,10,2,4,Verbruggen (48'),Foden (8'); Haaland (61')
+Current Season,28,31-10-2026 02:45:00,4283892,1025,Z.Hull City,1019,Z.Nottingham Forest,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,2,3,5,2,2,McBurnie (1'); Herrington (46'),McAtee (22')
+Current Season,28,31-10-2026 02:45:00,4283893,1011,Z.Fulham,1005,Z.Tottenham,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,4,9,13,3,6,,Marmoush (51')
+Current Season,28,31-10-2026 02:45:00,4283894,1012,Z.Crystal Palace,1007,Z.Everton,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,0,2,2,14,6,20,7,3,Wharton (73'),Barry (4'); George (33')
+Current Season,28,31-10-2026 02:45:00,4283895,1014,Z.Newcastle Utd,1013,Z.Bournemouth,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,8,4,12,4,2,,
+Current Season,28,31-10-2026 02:45:00,4283896,1020,Z.Ipswich Town,1021,Z.Sunderland,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,7,4,11,2,2,,Brobbey (59')
+Current Season,28,31-10-2026 02:45:00,4283897,1002,Z.Man United,1024,Z.Coventry City,6,0,6,1,Over 1.5,Over 2.5,Over 3.5,NG,1,0,1,8,3,11,3,2,"L.Martinez (14'); M.Cunha (46'); Mbeumo (50', 64'); Fernandes (71'); Rashford (82')",
+Current Season,28,31-10-2026 02:45:00,4283898,1017,Z.Aston Villa,1003,Z.Chelsea,3,1,4,1,Over 1.5,Over 2.5,Over 3.5,GG,3,0,1,6,4,10,4,2,Buendia (18'); McGinn (23'); Jackson (38'),Palmer (79')
+Current Season,29,31-10-2026 04:20:00,4283899,1017,Z.Aston Villa,1022,Z.Leeds,3,1,4,1,Over 1.5,Over 2.5,Over 3.5,GG,1,0,1,4,4,8,3,2,Jackson (35'); Lindelof (49'); Kamara (83'),Bogle (86')
+Current Season,29,31-10-2026 04:20:00,4283900,1018,Z.Brentford,1016,Z.Brighton,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,0,0,X,7,3,10,3,2,Thiago (46'),Kostoulas (52')
+Current Season,29,31-10-2026 04:20:00,4283901,1004,Z.Liverpool,1025,Z.Hull City,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,6,8,14,1,5,Wirtz (15'),
+Current Season,29,31-10-2026 04:20:00,4283902,1001,Z.Man City,1011,Z.Fulham,3,0,3,1,Over 1.5,Over 2.5,Under 3.5,NG,1,0,1,4,9,13,0,4,Foden (18'); Anderson (55'); Khusanov (73'),
+Current Season,29,31-10-2026 04:20:00,4283903,1003,Z.Chelsea,1006,Z.Arsenal,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,1,2,5,4,9,2,3,,Saka (41')
+Current Season,29,31-10-2026 04:20:00,4283904,1019,Z.Nottingham Forest,1012,Z.Crystal Palace,1,4,5,2,Over 1.5,Over 2.5,Over 3.5,GG,1,2,2,7,6,13,3,2,Delap (3'),"Pino (1'); Larsen (36', 82'); Ahanor (54')"
+Current Season,29,31-10-2026 04:20:00,4283905,1005,Z.Tottenham,1014,Z.Newcastle Utd,1,4,5,2,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,4,6,10,2,2,Gallagher (11'),Gonzalez (31'); Miley (62'); Barnes (64'); Wissa (69')
+Current Season,29,31-10-2026 04:20:00,4283906,1007,Z.Everton,1020,Z.Ipswich Town,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,1,1,X,4,6,10,3,3,George (17'),Fatawu (15')
+Current Season,29,31-10-2026 04:20:00,4283907,1013,Z.Bournemouth,1002,Z.Man United,1,2,3,2,Over 1.5,Over 2.5,Under 3.5,GG,0,1,2,6,9,15,4,7,Evanilson (52'),Tielemans (2'); Mbeumo (83')
+Current Season,29,31-10-2026 04:20:00,4283908,1021,Z.Sunderland,1024,Z.Coventry City,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,5,6,11,1,2,,
+Current Season,30,31-10-2026 05:55:00,4283909,1016,Z.Brighton,1006,Z.Arsenal,0,3,3,2,Over 1.5,Over 2.5,Under 3.5,NG,0,1,2,2,6,8,1,3,,Odegaard (30'); M.Havertz (69'); Rice (87')
+Current Season,30,31-10-2026 05:55:00,4283910,1025,Z.Hull City,1017,Z.Aston Villa,0,2,2,2,Over 1.5,Under 2.5,Under 3.5,NG,0,2,2,1,5,6,1,1,,McGinn (34'); Jackson (45')
+Current Season,30,31-10-2026 05:55:00,4283911,1011,Z.Fulham,1018,Z.Brentford,2,0,2,1,Over 1.5,Under 2.5,Under 3.5,NG,1,0,1,5,3,8,2,2,"Bobb (34', 48')",
+Current Season,30,31-10-2026 05:55:00,4283912,1012,Z.Crystal Palace,1004,Z.Liverpool,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,1,2,3,4,7,3,1,,Munoz (10')
+Current Season,30,31-10-2026 05:55:00,4283913,1014,Z.Newcastle Utd,1001,Z.Man City,2,3,5,2,Over 1.5,Over 2.5,Over 3.5,GG,1,1,X,6,7,13,6,2,"Wissa (30', 53')",Guehi (41'); Semenyo (55'); Khusanov (59')
+Current Season,30,31-10-2026 05:55:00,4283914,1020,Z.Ipswich Town,1019,Z.Nottingham Forest,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,4,7,11,3,3,,McAtee (46')
+Current Season,30,31-10-2026 05:55:00,4283915,1002,Z.Man United,1005,Z.Tottenham,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,4,11,15,4,6,,
+Current Season,30,31-10-2026 05:55:00,4283916,1024,Z.Coventry City,1007,Z.Everton,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,5,4,9,1,1,,Barry (50')
+Current Season,30,31-10-2026 05:55:00,4283917,1021,Z.Sunderland,1013,Z.Bournemouth,2,2,4,X,Over 1.5,Over 2.5,Over 3.5,GG,1,2,2,6,5,11,2,2,Angulo (7'); Meunier (80'),Silva (21'); Cook (22')
+Current Season,30,31-10-2026 05:55:00,4283918,1022,Z.Leeds,1003,Z.Chelsea,2,3,5,2,Over 1.5,Over 2.5,Over 3.5,GG,1,3,2,4,2,6,2,1,Calvert-Lewin (41'); Okafor (63'),Henderson (2'); Rogers (9'); Hato (43')
+Current Season,31,31-10-2026 07:30:00,4283919,1022,Z.Leeds,1025,Z.Hull City,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,6,4,10,1,1,Okafor (12'),
+Current Season,31,31-10-2026 07:30:00,4283920,1006,Z.Arsenal,1011,Z.Fulham,3,3,6,X,Over 1.5,Over 2.5,Over 3.5,GG,1,0,1,9,6,15,6,4,"Odegaard (29', 89'); M.Tzolis (86')","C.Palacios (55', 69'); Robinson (70')"
+Current Season,31,31-10-2026 07:30:00,4283921,1017,Z.Aston Villa,1012,Z.Crystal Palace,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,7,3,10,4,2,Jackson (34'),
+Current Season,31,31-10-2026 07:30:00,4283922,1018,Z.Brentford,1014,Z.Newcastle Utd,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,1,7,8,0,2,Damsgaard (54'),
+Current Season,31,31-10-2026 07:30:00,4283923,1004,Z.Liverpool,1020,Z.Ipswich Town,0,0,0,X,Under 1.5,Under 2.5,Under 3.5,NG,0,0,X,8,4,12,4,1,,
+Current Season,31,31-10-2026 07:30:00,4283924,1001,Z.Man City,1002,Z.Man United,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,1,1,X,6,3,9,3,1,Cherki (18'); Haaland (74'),M.Cunha (22')
+Current Season,31,31-10-2026 07:30:00,4283925,1019,Z.Nottingham Forest,1024,Z.Coventry City,1,1,2,X,Over 1.5,Under 2.5,Under 3.5,GG,1,1,X,4,2,6,3,1,Cunha (44'),Dasilva (7')
+Current Season,31,31-10-2026 07:30:00,4283926,1005,Z.Tottenham,1021,Z.Sunderland,2,1,3,1,Over 1.5,Over 2.5,Under 3.5,GG,0,1,2,4,5,9,1,5,Porro (50'); Udogie (71'),Ballard (6')
+Current Season,31,31-10-2026 07:30:00,4283927,1003,Z.Chelsea,1016,Z.Brighton,1,0,1,1,Under 1.5,Under 2.5,Under 3.5,NG,1,0,1,9,3,12,0,1,Rogers (9'),
+Current Season,31,31-10-2026 07:30:00,4283928,1007,Z.Everton,1013,Z.Bournemouth,0,1,1,2,Under 1.5,Under 2.5,Under 3.5,NG,0,1,2,7,8,15,1,2,,Cook (10')

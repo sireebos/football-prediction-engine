@@ -1,33 +1,38 @@
-# AI Football Prediction Engine ⚽🤖
+# AI Football Prediction Engine & Bet9ja Zoom Virtual Intelligence ⚽🤖
 
-A machine learning and statistical modeling pipeline for match analysis, league memory, real-time odds tracking, and football outcome forecasting.
+A comprehensive statistical modeling, automated data harvesting, persistent league memory, and match prediction system for real-world soccer and Bet9ja Zoom Virtual Leagues.
 
 ---
 
 ## 🌟 Key Architecture & Capabilities
 
-1. **Pulse Live & Official Premier League Scraper (`premier.py`)**
-   - Harvests official Premier League standings, live team form matrices, points per game, and goal differentials.
-   - Outputs clean normalized JSON and CSV data stores.
+1. **Bet9ja Zoom Virtual Match Engine (`zoom.py`, `zoom_predict.py`)**
+   - Harvests multi-season match results, half-time scores, full-time outcomes, corner counts, and goal distribution across all 8 Zoom competitions.
+   - Built-in head-to-head (H2H) matrix, team offensive/defensive ratings, and recurring pattern detection.
+   - Comparative database with 1,490+ historical match outcomes.
 
-2. **Turbo / Virtual Zoom Odds & Results Extractor (`zoom.py`)**
-   - Interacts with high-frequency live match telemetry feeds.
-   - Tracks half-time scorelines, full-time results, and corner distributions across multi-round matchdays.
+2. **Official Premier League Telemetry (`premier.py`)**
+   - Scrapes official Premier League standings, live team form matrices, points-per-game, and goal differentials directly into structured JSON, CSV, and Excel workbooks.
 
-3. **Statistical & ML Inference Engine**
+3. **Empirical Analysis & Statistical Reverse-Engineering (`analyze_similarity.py`, `predict_today.py`)**
+   - Evaluates season-to-season fixture recurrence, schedule shifting, and head-to-head score stability.
+   - Reverse-engineers underlying Bivariate Poisson simulation models and goal distributions ($\lambda_{\text{tot}} \approx 2.62$).
+   - Evaluates market leans for 1X2, Over/Under 2.5, BTTS (GG/NG), and exact score probability modes (`1-1`, `1-0`, `0-1`).
+
+4. **Statistical & ML Inference Engine**
    - Poisson distribution goal expectancy models ($P(X=k) = \frac{\lambda^k e^{-\lambda}}{k!}$).
    - Dixon-Coles low-score probability corrections.
-   - Home-advantage and form-weighted Elo rating adjustments.
-   - Outcome probabilities for 1X2, Over/Under 2.5, Both Teams to Score (BTTS), and corner counts.
+   - Home-advantage and form-weighted ratings.
+   - Market valuation and bookmaker odds extraction for positive expected value ($+EV$).
 
 ---
 
 ## 🛠️ Stack
 
 - **Language:** Python 3.11+
-- **Data Engineering:** `pandas`, `numpy`, `curl_cffi` (high-performance HTTP client with TLS fingerprint simulation)
-- **Modeling:** Poisson Goal Expectancy, Logistic Regression, Elo Rating Adjusters
-- **Data Stores:** JSON, CSV, SQLite
+- **Data Engineering:** `pandas`, `numpy`, `curl_cffi`, `pypdf`, `openpyxl`
+- **Modeling:** Poisson Goal Expectancy, Bivariate Poisson Grid, Dixon-Coles Corrections
+- **Data Stores:** JSON, CSV, Excel (`.xlsx`)
 
 ---
 
@@ -37,11 +42,17 @@ A machine learning and statistical modeling pipeline for match analysis, league 
 # Setup virtual environment
 python3 -m venv .venv
 source .venv/bin/activate
-pip install pandas curl_cffi
+pip install pandas numpy curl_cffi openpyxl
 
-# Ingest live Premier League telemetry
-python3 premier.py
-
-# Ingest Turbo match results
+# Scrape and update Zoom Virtual database across seasons
 python3 zoom.py
+
+# Predict upcoming match
+python3 zoom.py --predict "Z.Man City" "Z.Arsenal"
+
+# Run season similarity and reverse-engineering analysis
+python3 analyze_similarity.py
+
+# Run live round predictions
+python3 predict_today.py
 ```

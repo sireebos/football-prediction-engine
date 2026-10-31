@@ -1,6 +1,6 @@
 
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import pandas as pd
@@ -34,6 +34,35 @@ HEADERS = {
 }
 
 
+def is_kickoff_over(kickoff_str, tz_str=""):
+    """
+    Check if the kickoff / prediction datetime is in the past.
+    Returns True if the date has passed or is empty/invalid.
+    """
+    if not kickoff_str:
+        return True
+    try:
+        parts = kickoff_str.strip().split()
+        if len(parts) >= 3:
+            dt_part = f"{parts[0]} {parts[1]}"
+            tz_code = parts[2]
+        else:
+            dt_part = kickoff_str.strip()
+            tz_code = tz_str or "UTC"
+
+        dt = datetime.strptime(dt_part, "%Y-%m-%d %H:%M:%S")
+        if tz_code == "BST":
+            tz = timezone(timedelta(hours=1))
+        elif tz_code in ("GMT", "UTC"):
+            tz = timezone.utc
+        else:
+            tz = timezone.utc
+        dt = dt.replace(tzinfo=tz)
+        return dt <= datetime.now(timezone.utc)
+    except Exception:
+        return False
+
+
 def fetch_next_matches():
     response = requests.get(
         TEAM_FORM_API_URL,
@@ -50,6 +79,18 @@ def fetch_next_matches():
         if not team_id or not next_match:
             continue
 
+        # If match is already playing or finished, period is not PreMatch
+        period = next_match.get("period", "")
+        if period and period != "PreMatch":
+            continue
+
+        kickoff = next_match.get("kickoff", "")
+        tz = next_match.get("kickoffTimezone", "")
+
+        # Once the prediction date is over, delete / do not include it
+        if is_kickoff_over(kickoff, tz):
+            continue
+
         home_team = next_match.get("homeTeam") or {}
         away_team = next_match.get("awayTeam") or {}
         if str(home_team.get("id", "")) == team_id:
@@ -59,8 +100,6 @@ def fetch_next_matches():
             opponent = home_team.get("name", "")
             venue = "Away"
 
-        kickoff = next_match.get("kickoff", "")
-        tz = next_match.get("kickoffTimezone", "")
         kickoff_str = f"{kickoff} {tz}".strip()
 
         next_map[team_id] = {
@@ -98,6 +137,16 @@ def scrape_table():
         team_id = str(team.get("id", ""))
         next_info = next_matches.get(team_id, {})
 
+        kickoff_val = next_info.get("Next Kickoff", "")
+        opponent_val = next_info.get("Next Opponent", "")
+        venue_val = next_info.get("Next Venue", "")
+
+        # Verify that kickoff date has not passed
+        if is_kickoff_over(kickoff_val):
+            kickoff_val = ""
+            opponent_val = ""
+            venue_val = ""
+
         gf = overall.get("goalsFor", 0)
         ga = overall.get("goalsAgainst", 0)
         rows.append({
@@ -111,9 +160,9 @@ def scrape_table():
             "Goals Against": ga,
             "Goal Difference": gf - ga,
             "Points": overall.get("points"),
-            "Next Opponent": next_info.get("Next Opponent", ""),
-            "Next Venue": next_info.get("Next Venue", ""),
-            "Next Kickoff": next_info.get("Next Kickoff", ""),
+            "Next Opponent": opponent_val,
+            "Next Venue": venue_val,
+            "Next Kickoff": kickoff_val,
         })
 
     df = pd.DataFrame(rows)
@@ -141,11 +190,55 @@ def scrape_table():
     return df.sort_values("Position").reset_index(drop=True)
 
 
+def clean_expired_predictions(json_path=None, csv_path=None, excel_path=None):
+    """
+    Cleans expired prediction / next match fields from already saved JSON, CSV, and Excel files.
+    Deletes the next match fields once the kickoff date has passed.
+    """
+    json_path = Path(json_path) if json_path else (OUTPUT_DIR / "premier_league_2026_27.json")
+    csv_path = Path(csv_path) if csv_path else (OUTPUT_DIR / "premier_league_2026_27.csv")
+    excel_path = Path(excel_path) if excel_path else (OUTPUT_DIR / "premier_league_2026_27.xlsx")
+
+    cleaned_count = 0
+    if json_path.exists():
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        for team in data.get("standings", []):
+            kickoff = team.get("Next Kickoff")
+            if kickoff and is_kickoff_over(kickoff):
+                team.pop("Next Opponent", None)
+                team.pop("Next Venue", None)
+                team.pop("Next Kickoff", None)
+                cleaned_count += 1
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+
+    if csv_path.exists():
+        df = pd.read_csv(csv_path)
+        if "Next Kickoff" in df.columns:
+            for idx, val in df["Next Kickoff"].items():
+                if is_kickoff_over(str(val) if pd.notna(val) else ""):
+                    df.at[idx, "Next Opponent"] = ""
+                    df.at[idx, "Next Venue"] = ""
+                    df.at[idx, "Next Kickoff"] = ""
+            df.to_csv(csv_path, index=False)
+
+    return cleaned_count
+
+
 def main():
     df = scrape_table()
     timestamp = datetime.now(timezone.utc).isoformat()
 
-    records = df.to_dict(orient="records")
+    records = []
+    for row in df.to_dict(orient="records"):
+        # Once the prediction date is over, delete it from the team record in JSON
+        kickoff = row.get("Next Kickoff", "")
+        if not kickoff or is_kickoff_over(kickoff):
+            row.pop("Next Opponent", None)
+            row.pop("Next Venue", None)
+            row.pop("Next Kickoff", None)
+        records.append(row)
 
     payload = {
         "competition": "Premier League",
