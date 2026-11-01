@@ -32,6 +32,17 @@ STATS_URL = "https://zoomapi.bet9ja.com/zoomexternalapi/SeasonResult/Statistics"
 DEFAULT_COMPETITION_ID = 1
 CLIENT_ID = "101"
 
+ZOOM_COMPETITIONS: Dict[int, str] = {
+    1: "Premier-Zoom",
+    2: "Liga-Zoom",
+    3: "Bundes-Zoom",
+    4: "SerieA-Zoom",
+    5: "Ligue1-Zoom",
+    6: "Primeira-Zoom",
+    7: "Eredivisie-Zoom",
+    11: "Premier-Zoom Turbo",
+}
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -408,26 +419,29 @@ def predict_zoom_match(home_team: str, away_team: str, df_history: Optional[pd.D
     }
 
 
-def scrape_and_save_all():
-    """Scrapes both current and previous seasons, saves Excel/CSV/JSON, and prints summaries."""
+def scrape_and_save_all(competition_id: int = DEFAULT_COMPETITION_ID):
+    """Scrapes both current and previous seasons for a competition, saves Excel/CSV/JSON, and prints summaries."""
+    comp_name = ZOOM_COMPETITIONS.get(competition_id, f"Competition_{competition_id}")
+    comp_slug = comp_name.lower().replace("-", "_").replace(" ", "_")
+
     print("=" * 70)
-    print("Bet9ja Premier-Zoom Full Historical Scraper")
-    print("Target: Current Season + Previous Season (All Available Data)")
+    print(f"Bet9ja Zoom Historical Scraper: {comp_name} (ID: {competition_id})")
+    print("Target: Current Season + Previous Season (All Available Rounds)")
     print("=" * 70)
 
     # 1. Fetch team names mapping
     team_map = fetch_competitions_and_teams()
 
     # 2. Fetch official statistics with Form
-    print("\nFetching official season statistics from /SeasonResult/Statistics...")
-    stats_curr = fetch_official_stats(DEFAULT_COMPETITION_ID, 0, team_map)
-    stats_prev = fetch_official_stats(DEFAULT_COMPETITION_ID, 1, team_map)
+    print(f"\nFetching official season statistics for {comp_name} from /SeasonResult/Statistics...")
+    stats_curr = fetch_official_stats(competition_id, 0, team_map)
+    stats_prev = fetch_official_stats(competition_id, 1, team_map)
     df_stats_curr = pd.DataFrame(stats_curr)
     df_stats_prev = pd.DataFrame(stats_prev)
 
     # 3. Scrape Current Season (previous=0)
     curr_matches = scrape_season_rounds(
-        competition_id=DEFAULT_COMPETITION_ID,
+        competition_id=competition_id,
         previous_flag=0,
         season_label="Current Season",
         team_map=team_map,
@@ -435,7 +449,7 @@ def scrape_and_save_all():
 
     # 4. Scrape Previous Season (previous=1)
     prev_matches = scrape_season_rounds(
-        competition_id=DEFAULT_COMPETITION_ID,
+        competition_id=competition_id,
         previous_flag=1,
         season_label="Previous Season",
         team_map=team_map,
@@ -447,16 +461,17 @@ def scrape_and_save_all():
     df_all = pd.concat([df_curr, df_prev], ignore_index=True)
 
     # 6. File Paths
-    excel_path = OUTPUT_DIR / "bet9ja_premier_zoom_all_seasons.xlsx"
-    csv_all_path = OUTPUT_DIR / "bet9ja_premier_zoom_all.csv"
-    csv_zoom_path = OUTPUT_DIR / "zoom.csv"
-    csv_curr_path = OUTPUT_DIR / "bet9ja_premier_zoom_current.csv"
-    csv_prev_path = OUTPUT_DIR / "bet9ja_premier_zoom_previous.csv"
-    json_path = OUTPUT_DIR / "bet9ja_premier_zoom_all_seasons.json"
+    prefix = f"bet9ja_{comp_slug}"
+    excel_path = OUTPUT_DIR / f"{prefix}_all_seasons.xlsx"
+    csv_all_path = OUTPUT_DIR / f"{prefix}_all.csv"
+    csv_curr_path = OUTPUT_DIR / f"{prefix}_current.csv"
+    csv_prev_path = OUTPUT_DIR / f"{prefix}_previous.csv"
+    json_path = OUTPUT_DIR / f"{prefix}_all_seasons.json"
 
     # 7. Export to CSVs
     df_all.to_csv(csv_all_path, index=False)
-    df_all.to_csv(csv_zoom_path, index=False)
+    if competition_id == DEFAULT_COMPETITION_ID:
+        df_all.to_csv(OUTPUT_DIR / "zoom.csv", index=False)
     df_curr.to_csv(csv_curr_path, index=False)
     df_prev.to_csv(csv_prev_path, index=False)
 
@@ -482,8 +497,8 @@ def scrape_and_save_all():
 
     # 9. Export to Structured JSON
     payload = {
-        "competition": "Premier-Zoom",
-        "competitionId": DEFAULT_COMPETITION_ID,
+        "competition": comp_name,
+        "competitionId": competition_id,
         "scraped_at_utc": datetime.now(timezone.utc).isoformat(),
         "summary": {
             "current_season_matches": len(df_curr),
@@ -502,7 +517,7 @@ def scrape_and_save_all():
         json.dump(payload, f, indent=2, ensure_ascii=False)
 
     print("\n" + "=" * 70)
-    print("ALL DATA ACQUIRED & EXPORTED!")
+    print(f"ALL DATA ACQUIRED & EXPORTED FOR {comp_name}!")
     print("=" * 70)
     print(f"Excel (Multi-Sheet): {excel_path}")
     print(f"CSV (Combined):      {csv_all_path}")
@@ -511,28 +526,37 @@ def scrape_and_save_all():
     print(f"JSON Payload:        {json_path}")
     print("-" * 70)
     print(f"Total Matches Collected: {len(df_all)}")
-    print(f"  • Current Season:      {len(df_curr)} matches ({df_curr['Round'].nunique()} rounds)")
-    print(f"  • Previous Season:     {len(df_prev)} matches ({df_prev['Round'].nunique()} rounds)")
+    print(f"  • Current Season:      {len(df_curr)} matches ({df_curr['Round'].nunique() if not df_curr.empty else 0} rounds)")
+    print(f"  • Previous Season:     {len(df_prev)} matches ({df_prev['Round'].nunique() if not df_prev.empty else 0} rounds)")
     print("=" * 70)
 
     if not df_stats_curr.empty:
-        print("\nCurrent Season Top 5 Standings with Form:")
+        print(f"\n{comp_name} Current Season Top 5 Standings with Form:")
         print(df_stats_curr.head(5).to_string(index=False))
 
     return df_all
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Bet9ja Premier-Zoom Scraper & Prediction Engine")
+    parser = argparse.ArgumentParser(description="Bet9ja Zoom Virtual Leagues Scraper & Prediction Engine")
+    parser.add_argument("--league", type=str, default="1", help="Competition ID (1-7, 11) or name (e.g., premier, liga, bundes, seriea, ligue1, primeira, eredivisie, turbo)")
+    parser.add_argument("--all-leagues", action="store_true", help="Scrape all 8 Zoom Virtual leagues sequentially")
+    parser.add_argument("--list-leagues", action="store_true", help="List all 8 available Bet9ja Zoom Virtual leagues")
     parser.add_argument("--predict", nargs=2, metavar=("HOME", "AWAY"), help="Compare and predict match between HOME and AWAY")
     parser.add_argument("--compare", nargs=2, metavar=("TEAM1", "TEAM2"), help="Compare head-to-head between TEAM1 and TEAM2")
     parser.add_argument("--teams", action="store_true", help="List all teams in dataset")
     args = parser.parse_args()
 
+    if args.list_leagues:
+        print("\nAll 8 Available Bet9ja Zoom Virtual Leagues:")
+        for cid, cname in ZOOM_COMPETITIONS.items():
+            print(f"  ID: {cid:2d}  ->  {cname}")
+        return
+
     if args.teams:
         csv_path = OUTPUT_DIR / "bet9ja_premier_zoom_all.csv"
         if not csv_path.exists():
-            scrape_and_save_all()
+            scrape_and_save_all(DEFAULT_COMPETITION_ID)
         df = pd.read_csv(csv_path)
         teams = sorted(list(set(df["Home Team"].dropna().tolist() + df["Away Team"].dropna().tolist())))
         print(f"\nAvailable Teams ({len(teams)} teams):")
@@ -544,7 +568,7 @@ def main():
         team1, team2 = args.predict if args.predict else args.compare
         csv_path = OUTPUT_DIR / "bet9ja_premier_zoom_all.csv"
         if not csv_path.exists():
-            scrape_and_save_all()
+            scrape_and_save_all(DEFAULT_COMPETITION_ID)
         pred = predict_zoom_match(team1, team2)
         print("\n" + "=" * 70)
         print(f"AI MATCH COMPARISON & PREDICTION: {pred['fixture']}")
@@ -552,8 +576,31 @@ def main():
         print(json.dumps(pred, indent=2))
         return
 
-    # Default action: scrape both seasons
-    scrape_and_save_all()
+    if args.all_leagues:
+        print("\nScraping ALL 8 Bet9ja Zoom Virtual Leagues...")
+        for cid in ZOOM_COMPETITIONS:
+            scrape_and_save_all(cid)
+        print("\n✓ Successfully scraped and updated all 8 Bet9ja Zoom leagues!")
+        return
+
+    # Parse league ID or alias
+    league_arg = str(args.league).strip().lower()
+    cid_match = None
+    if league_arg.isdigit() and int(league_arg) in ZOOM_COMPETITIONS:
+        cid_match = int(league_arg)
+    else:
+        for cid, cname in ZOOM_COMPETITIONS.items():
+            if league_arg in cname.lower():
+                cid_match = cid
+                break
+    if cid_match is None:
+        print(f"Unknown league '{args.league}'. Choose from:")
+        for cid, cname in ZOOM_COMPETITIONS.items():
+            print(f"  {cid}: {cname}")
+        sys.exit(1)
+
+    # Scrape selected league
+    scrape_and_save_all(cid_match)
 
 
 if __name__ == "__main__":

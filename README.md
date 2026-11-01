@@ -36,18 +36,30 @@ A comprehensive statistical modeling, automated data harvesting, persistent leag
 
 ---
 
+## 📖 Cross-Platform Installation Guide
+
+For detailed OS-specific installation instructions (Linux, macOS, and Windows with WSL2/PowerShell):
+👉 **See [INSTALLATION.md](file:///home/sireebos/Documents/predition_zoom/INSTALLATION.md)**
+
+---
+
 ## 🚀 Quickstart
 
 ```bash
 # Setup virtual environment
 python3 -m venv .venv
-source .venv/bin/activate
-pip install pandas numpy curl_cffi openpyxl
+source .venv/bin/activate  # On Windows: .\.venv\Scripts\Activate.ps1
 
-# Scrape and update Zoom Virtual database across seasons
-python3 zoom.py
+# Install dependencies from requirements.txt
+pip install -r requirements.txt
 
-# Predict upcoming match
+# Run Live Real-Time Zoom Viewer across all 8 leagues:
+python3 live_zoom.py
+
+# Scrape and update Zoom Virtual database across all leagues
+python3 zoom.py --all-leagues
+
+# Predict upcoming match fixture
 python3 zoom.py --predict "Z.Man City" "Z.Arsenal"
 
 # Run season similarity and reverse-engineering analysis

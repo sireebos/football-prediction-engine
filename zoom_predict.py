@@ -23,6 +23,7 @@ Usage
          --home "Z.Man City" --away "Z.Arsenal" --odds 2.10 3.40 3.20
 """
 import argparse
+import csv
 import json
 import math
 import re
@@ -31,21 +32,50 @@ import urllib.parse
 import urllib.request
 from datetime import datetime
 
+try:
+    from curl_cffi import requests as cffi_requests
+except ImportError:
+    cffi_requests = None
+
 BASE = "https://zoomapi.bet9ja.com/zoomexternalapi/SeasonResult/Results"
 
 # ----------------------------------------------------------------- fetching
 def fetch_page(page, client_id, competition_id, limit):
-    qs = urllib.parse.urlencode({
-        "clientId": client_id, "competitionId": competition_id,
-        "previous": page, "offset": -1, "limit": limit,
-    })
-    req = urllib.request.Request(f"{BASE}?{qs}", headers={
+    # page 0 = current season (previous=0), page 1 = previous season (previous=1)
+    # or offset-based pagination
+    prev_flag = 1 if page > 0 else 0
+    offset = 0 if page <= 1 else (page - 1) * limit
+
+    headers = {
         "clientId": str(client_id),
-        "Accept": "*/*",
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+        "Accept": "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/122.0.0.0 Safari/537.36"
+        ),
         "Origin": "https://zoomapi.bet9ja.com",
         "Referer": "https://zoomapi.bet9ja.com/zoom/results/premier-zoom",
+    }
+
+    if cffi_requests is not None:
+        params = {
+            "clientId": str(client_id),
+            "competitionId": str(competition_id),
+            "previous": str(prev_flag),
+            "offset": str(offset),
+            "limit": str(limit),
+        }
+        resp = cffi_requests.get(BASE, params=params, headers=headers, impersonate="chrome110", timeout=20)
+        resp.raise_for_status()
+        return resp.json()
+
+    qs = urllib.parse.urlencode({
+        "clientId": client_id, "competitionId": competition_id,
+        "previous": prev_flag, "offset": offset, "limit": limit,
     })
+    req = urllib.request.Request(f"{BASE}?{qs}", headers=headers)
     with urllib.request.urlopen(req, timeout=20) as r:
         return json.loads(r.read().decode("utf-8"))
 
@@ -150,10 +180,29 @@ def walk(obj, out):
 
 
 def load_matches(path, newest_first=True):
-    with open(path) as f:
-        data = json.load(f)
+    path_str = str(path)
     raw = []
-    walk(data, raw)
+    if path_str.lower().endswith(".csv"):
+        with open(path, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                rec = extract(row)
+                if rec:
+                    raw.append(rec)
+    else:
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            walk(data, raw)
+        except (json.JSONDecodeError, UnicodeDecodeError):
+            # Fallback: try reading as CSV
+            with open(path, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    rec = extract(row)
+                    if rec:
+                        raw.append(rec)
+
     seen, matches = set(), []
     for r in raw:
         key = r["id"] if r["id"] is not None else (r["home"], r["away"], r["t"], r["hg"], r["ag"])
